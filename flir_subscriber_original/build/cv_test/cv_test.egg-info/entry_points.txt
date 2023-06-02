@@ -1,0 +1,3 @@
+[console_scripts]
+my_node = cv_test.my_node:main
+

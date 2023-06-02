@@ -1,0 +1,37 @@
+[1.048s] Invoking command in '/home/samuel/flir_subscriber/src/wifi_listener': PYTHONPATH=/home/samuel/flir_subscriber/build/wifi_listener/prefix_override:/home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wifi_listener build --build-base /home/samuel/flir_subscriber/build/wifi_listener/build install --record /home/samuel/flir_subscriber/build/wifi_listener/install.log --install-scripts $base/lib/wifi_listener --single-version-externally-managed
+[1.349s] running egg_info
+[1.349s] creating ../../build/wifi_listener/wifi_listener.egg-info
+[1.350s] writing ../../build/wifi_listener/wifi_listener.egg-info/PKG-INFO
+[1.350s] writing dependency_links to ../../build/wifi_listener/wifi_listener.egg-info/dependency_links.txt
+[1.350s] writing entry points to ../../build/wifi_listener/wifi_listener.egg-info/entry_points.txt
+[1.350s] writing requirements to ../../build/wifi_listener/wifi_listener.egg-info/requires.txt
+[1.350s] writing top-level names to ../../build/wifi_listener/wifi_listener.egg-info/top_level.txt
+[1.364s] writing manifest file '../../build/wifi_listener/wifi_listener.egg-info/SOURCES.txt'
+[1.405s] reading manifest file '../../build/wifi_listener/wifi_listener.egg-info/SOURCES.txt'
+[1.406s] writing manifest file '../../build/wifi_listener/wifi_listener.egg-info/SOURCES.txt'
+[1.406s] running build
+[1.407s] running build_py
+[1.407s] creating /home/samuel/flir_subscriber/build/wifi_listener/build
+[1.407s] creating /home/samuel/flir_subscriber/build/wifi_listener/build/lib
+[1.407s] creating /home/samuel/flir_subscriber/build/wifi_listener/build/lib/wifi_listener
+[1.407s] copying wifi_listener/__init__.py -> /home/samuel/flir_subscriber/build/wifi_listener/build/lib/wifi_listener
+[1.408s] copying wifi_listener/wifi_listener.py -> /home/samuel/flir_subscriber/build/wifi_listener/build/lib/wifi_listener
+[1.408s] running install
+[1.410s] running install_lib
+[1.412s] creating /home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages/wifi_listener
+[1.412s] copying /home/samuel/flir_subscriber/build/wifi_listener/build/lib/wifi_listener/__init__.py -> /home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages/wifi_listener
+[1.412s] copying /home/samuel/flir_subscriber/build/wifi_listener/build/lib/wifi_listener/wifi_listener.py -> /home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages/wifi_listener
+[1.413s] byte-compiling /home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages/wifi_listener/__init__.py to __init__.cpython-38.pyc
+[1.414s] byte-compiling /home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages/wifi_listener/wifi_listener.py to wifi_listener.cpython-38.pyc
+[1.415s] running install_data
+[1.415s] creating /home/samuel/flir_subscriber/install/wifi_listener/share/ament_index
+[1.415s] creating /home/samuel/flir_subscriber/install/wifi_listener/share/ament_index/resource_index
+[1.416s] creating /home/samuel/flir_subscriber/install/wifi_listener/share/ament_index/resource_index/packages
+[1.416s] copying resource/wifi_listener -> /home/samuel/flir_subscriber/install/wifi_listener/share/ament_index/resource_index/packages
+[1.416s] copying package.xml -> /home/samuel/flir_subscriber/install/wifi_listener/share/wifi_listener
+[1.416s] running install_egg_info
+[1.418s] Copying ../../build/wifi_listener/wifi_listener.egg-info to /home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages/wifi_listener-0.0.0-py3.8.egg-info
+[1.420s] running install_scripts
+[1.445s] Installing wifi_listener script to /home/samuel/flir_subscriber/install/wifi_listener/lib/wifi_listener
+[1.445s] writing list of installed files to '/home/samuel/flir_subscriber/build/wifi_listener/install.log'
+[1.491s] Invoked command in '/home/samuel/flir_subscriber/src/wifi_listener' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/wifi_listener/prefix_override:/home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wifi_listener build --build-base /home/samuel/flir_subscriber/build/wifi_listener/build install --record /home/samuel/flir_subscriber/build/wifi_listener/install.log --install-scripts $base/lib/wifi_listener --single-version-externally-managed

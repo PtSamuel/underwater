@@ -1,0 +1,37 @@
+[0.968s] Invoking command in '/home/samuel/flir_subscriber/src/cv_test': PYTHONPATH=/home/samuel/flir_subscriber/build/cv_test/prefix_override:/home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_test build --build-base /home/samuel/flir_subscriber/build/cv_test/build install --record /home/samuel/flir_subscriber/build/cv_test/install.log --install-scripts $base/lib/cv_test --single-version-externally-managed
+[1.292s] running egg_info
+[1.292s] creating ../../build/cv_test/cv_test.egg-info
+[1.292s] writing ../../build/cv_test/cv_test.egg-info/PKG-INFO
+[1.293s] writing dependency_links to ../../build/cv_test/cv_test.egg-info/dependency_links.txt
+[1.293s] writing entry points to ../../build/cv_test/cv_test.egg-info/entry_points.txt
+[1.293s] writing requirements to ../../build/cv_test/cv_test.egg-info/requires.txt
+[1.293s] writing top-level names to ../../build/cv_test/cv_test.egg-info/top_level.txt
+[1.295s] writing manifest file '../../build/cv_test/cv_test.egg-info/SOURCES.txt'
+[1.338s] reading manifest file '../../build/cv_test/cv_test.egg-info/SOURCES.txt'
+[1.339s] writing manifest file '../../build/cv_test/cv_test.egg-info/SOURCES.txt'
+[1.339s] running build
+[1.339s] running build_py
+[1.340s] creating /home/samuel/flir_subscriber/build/cv_test/build
+[1.340s] creating /home/samuel/flir_subscriber/build/cv_test/build/lib
+[1.340s] creating /home/samuel/flir_subscriber/build/cv_test/build/lib/cv_test
+[1.340s] copying cv_test/__init__.py -> /home/samuel/flir_subscriber/build/cv_test/build/lib/cv_test
+[1.340s] copying cv_test/my_node.py -> /home/samuel/flir_subscriber/build/cv_test/build/lib/cv_test
+[1.341s] running install
+[1.342s] running install_lib
+[1.344s] creating /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/cv_test
+[1.344s] copying /home/samuel/flir_subscriber/build/cv_test/build/lib/cv_test/__init__.py -> /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/cv_test
+[1.344s] copying /home/samuel/flir_subscriber/build/cv_test/build/lib/cv_test/my_node.py -> /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/cv_test
+[1.345s] byte-compiling /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/cv_test/__init__.py to __init__.cpython-38.pyc
+[1.346s] byte-compiling /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/cv_test/my_node.py to my_node.cpython-38.pyc
+[1.347s] running install_data
+[1.347s] creating /home/samuel/flir_subscriber/install/cv_test/share/ament_index
+[1.348s] creating /home/samuel/flir_subscriber/install/cv_test/share/ament_index/resource_index
+[1.348s] creating /home/samuel/flir_subscriber/install/cv_test/share/ament_index/resource_index/packages
+[1.348s] copying resource/cv_test -> /home/samuel/flir_subscriber/install/cv_test/share/ament_index/resource_index/packages
+[1.348s] copying package.xml -> /home/samuel/flir_subscriber/install/cv_test/share/cv_test
+[1.349s] running install_egg_info
+[1.350s] Copying ../../build/cv_test/cv_test.egg-info to /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/cv_test-0.0.0-py3.8.egg-info
+[1.351s] running install_scripts
+[1.377s] Installing my_node script to /home/samuel/flir_subscriber/install/cv_test/lib/cv_test
+[1.377s] writing list of installed files to '/home/samuel/flir_subscriber/build/cv_test/install.log'
+[1.424s] Invoked command in '/home/samuel/flir_subscriber/src/cv_test' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/cv_test/prefix_override:/home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_test build --build-base /home/samuel/flir_subscriber/build/cv_test/build install --record /home/samuel/flir_subscriber/build/cv_test/install.log --install-scripts $base/lib/cv_test --single-version-externally-managed

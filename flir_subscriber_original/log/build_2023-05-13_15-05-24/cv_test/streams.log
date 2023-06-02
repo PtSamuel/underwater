@@ -1,0 +1,23 @@
+[1.390s] Invoking command in '/home/samuel/flir_subscriber/build/cv_test': PYTHONPATH=/home/samuel/flir_subscriber/build/cv_test/prefix_override:/home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/samuel/flir_subscriber/build/cv_test/build --no-deps install_data
+[1.737s] running develop
+[1.929s] running egg_info
+[1.929s] writing cv_test.egg-info/PKG-INFO
+[1.929s] writing dependency_links to cv_test.egg-info/dependency_links.txt
+[1.929s] writing entry points to cv_test.egg-info/entry_points.txt
+[1.929s] writing requirements to cv_test.egg-info/requires.txt
+[1.931s] writing top-level names to cv_test.egg-info/top_level.txt
+[1.975s] reading manifest file 'cv_test.egg-info/SOURCES.txt'
+[1.975s] writing manifest file 'cv_test.egg-info/SOURCES.txt'
+[2.025s] running build_ext
+[2.032s] Creating /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/site.py
+[2.035s] Creating /home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages/cv-test.egg-link (link to .)
+[2.037s] Installing my_node script to /home/samuel/flir_subscriber/install/cv_test/lib/cv_test
+[2.037s] 
+[2.037s] Installed /home/samuel/flir_subscriber/build/cv_test
+[2.037s] running install_data
+[2.037s] creating /home/samuel/flir_subscriber/install/cv_test/share/ament_index
+[2.038s] creating /home/samuel/flir_subscriber/install/cv_test/share/ament_index/resource_index
+[2.038s] creating /home/samuel/flir_subscriber/install/cv_test/share/ament_index/resource_index/packages
+[2.038s] copying resource/cv_test -> /home/samuel/flir_subscriber/install/cv_test/share/ament_index/resource_index/packages
+[2.038s] copying package.xml -> /home/samuel/flir_subscriber/install/cv_test/share/cv_test
+[2.107s] Invoked command in '/home/samuel/flir_subscriber/build/cv_test' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/cv_test/prefix_override:/home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/samuel/flir_subscriber/build/cv_test/build --no-deps install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+flir_subscriber = flir_subscriber.flir_subscriber_fps_test:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+my_node = experiment.my_node:main
+

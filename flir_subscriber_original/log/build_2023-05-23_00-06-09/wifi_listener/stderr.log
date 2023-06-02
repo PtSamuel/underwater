@@ -1,0 +1,5 @@
+  File "/home/samuel/flir_subscriber/install/wifi_listener/lib/python3.8/site-packages/wifi_listener/wifi_listener.py", line 1
+    from rclpy
+             ^
+SyntaxError: invalid syntax
+

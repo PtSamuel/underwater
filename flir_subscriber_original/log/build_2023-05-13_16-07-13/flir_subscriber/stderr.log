@@ -1,0 +1,6 @@
+  File "/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir_subscriber/flir_subscriber.py", line 24
+    bayer_image = np.array(data).reshape([width, height])\
+        rgb_image = cv2.cvtColor(bayer_image, cv2.COLOR_BayerRG2RGB)
+    ^
+SyntaxError: invalid syntax
+

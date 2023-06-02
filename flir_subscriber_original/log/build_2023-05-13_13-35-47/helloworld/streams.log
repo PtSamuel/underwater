@@ -1,0 +1,37 @@
+[1.352s] Invoking command in '/home/samuel/flir_subscriber/src/helloworld': PYTHONPATH=/home/samuel/flir_subscriber/build/helloworld/prefix_override:/home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/samuel/flir_subscriber/build/helloworld/build install --record /home/samuel/flir_subscriber/build/helloworld/install.log --install-scripts $base/lib/helloworld --single-version-externally-managed
+[1.658s] running egg_info
+[1.659s] creating ../../build/helloworld/helloworld.egg-info
+[1.660s] writing ../../build/helloworld/helloworld.egg-info/PKG-INFO
+[1.660s] writing dependency_links to ../../build/helloworld/helloworld.egg-info/dependency_links.txt
+[1.660s] writing entry points to ../../build/helloworld/helloworld.egg-info/entry_points.txt
+[1.660s] writing requirements to ../../build/helloworld/helloworld.egg-info/requires.txt
+[1.660s] writing top-level names to ../../build/helloworld/helloworld.egg-info/top_level.txt
+[1.662s] writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[1.705s] reading manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[1.706s] writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[1.707s] running build
+[1.707s] running build_py
+[1.707s] creating /home/samuel/flir_subscriber/build/helloworld/build
+[1.708s] creating /home/samuel/flir_subscriber/build/helloworld/build/lib
+[1.708s] creating /home/samuel/flir_subscriber/build/helloworld/build/lib/helloworld
+[1.708s] copying helloworld/__init__.py -> /home/samuel/flir_subscriber/build/helloworld/build/lib/helloworld
+[1.708s] copying helloworld/helloworld.py -> /home/samuel/flir_subscriber/build/helloworld/build/lib/helloworld
+[1.708s] running install
+[1.709s] running install_lib
+[1.710s] creating /home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld
+[1.710s] copying /home/samuel/flir_subscriber/build/helloworld/build/lib/helloworld/__init__.py -> /home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld
+[1.710s] copying /home/samuel/flir_subscriber/build/helloworld/build/lib/helloworld/helloworld.py -> /home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld
+[1.711s] byte-compiling /home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld/__init__.py to __init__.cpython-38.pyc
+[1.713s] byte-compiling /home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld/helloworld.py to helloworld.cpython-38.pyc
+[1.713s] running install_data
+[1.714s] creating /home/samuel/flir_subscriber/install/helloworld/share/ament_index
+[1.714s] creating /home/samuel/flir_subscriber/install/helloworld/share/ament_index/resource_index
+[1.715s] creating /home/samuel/flir_subscriber/install/helloworld/share/ament_index/resource_index/packages
+[1.715s] copying resource/helloworld -> /home/samuel/flir_subscriber/install/helloworld/share/ament_index/resource_index/packages
+[1.715s] copying package.xml -> /home/samuel/flir_subscriber/install/helloworld/share/helloworld
+[1.715s] running install_egg_info
+[1.717s] Copying ../../build/helloworld/helloworld.egg-info to /home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld-0.0.0-py3.8.egg-info
+[1.718s] running install_scripts
+[1.744s] Installing helloworld script to /home/samuel/flir_subscriber/install/helloworld/lib/helloworld
+[1.745s] writing list of installed files to '/home/samuel/flir_subscriber/build/helloworld/install.log'
+[1.846s] Invoked command in '/home/samuel/flir_subscriber/src/helloworld' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/helloworld/prefix_override:/home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/samuel/flir_subscriber/build/helloworld/build install --record /home/samuel/flir_subscriber/build/helloworld/install.log --install-scripts $base/lib/helloworld --single-version-externally-managed

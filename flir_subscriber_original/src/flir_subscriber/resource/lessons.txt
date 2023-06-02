@@ -1,0 +1,15 @@
+must import cv2 before import cv_bridge
+when import torch, import it earlier than other packages, to avoid ImportError: /home/samuel/.local/lib/python3.8/site-packages/torch/lib/../../torch.libs/libgomp-d22c30c5.so.1.0.0: cannot allocate memory in static TLS block
+
+flir ros2 driver outputs images at 20fps
+with cv_bridge decoder, still 20fps
+with cv2 real time display, 15.7fps
+with draw_label stroke, 15.3fps
+with draw_label no stroke, 15.7fps
+with draw_label no stroke, resize by 4, 13.8fps
+with draw_label no stroke, resize by 4, inference without resize, 3.6fps
+
+make sure to run model on gpu
+model on gpu + no display, 20fps
+
+change ros2_driver/install/setup.sh, COLCON_CURRENT_PREFIX="/opt/ros/foxy" to 
