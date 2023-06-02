@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000615] (cv_test) JobQueued: {'identifier': 'cv_test', 'dependencies': OrderedDict()}
+[0.000701] (flir_subscriber) JobQueued: {'identifier': 'flir_subscriber', 'dependencies': OrderedDict()}
+[0.000759] (cv_test) JobStarted: {'identifier': 'cv_test'}
+[0.027646] (flir_subscriber) JobStarted: {'identifier': 'flir_subscriber'}
+[0.045601] (flir_subscriber) JobEnded: {'identifier': 'flir_subscriber', 'rc': 0}
+[0.048201] (cv_test) JobEnded: {'identifier': 'cv_test', 'rc': 'SIGINT'}
+[0.058774] (-) EventReactorShutdown: {}

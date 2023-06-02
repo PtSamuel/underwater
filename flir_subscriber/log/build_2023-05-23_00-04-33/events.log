@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000345] (-) JobUnselected: {'identifier': 'cv_test'}
+[0.000579] (-) JobUnselected: {'identifier': 'experiment'}
+[0.000700] (-) JobUnselected: {'identifier': 'flir_subscriber'}
+[0.000838] (-) JobUnselected: {'identifier': 'wifi_listener'}
+[0.001132] (-) EventReactorShutdown: {}

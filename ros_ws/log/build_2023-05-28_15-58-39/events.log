@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000710] (joy_subscriber) JobQueued: {'identifier': 'joy_subscriber', 'dependencies': OrderedDict()}
+[0.001362] (joy_subscriber) JobStarted: {'identifier': 'joy_subscriber'}
+[0.099513] (-) TimerEvent: {}
+[0.200312] (-) TimerEvent: {}
+[0.229482] (joy_subscriber) JobEnded: {'identifier': 'joy_subscriber', 'rc': 0}
+[0.231805] (-) EventReactorShutdown: {}

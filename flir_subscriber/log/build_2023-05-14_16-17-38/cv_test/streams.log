@@ -1,0 +1,4 @@
+[1.327s] Invoking command in '/home/samuel/flir_subscriber/build/cv_test': PYTHONPATH=/home/samuel/flir_subscriber/build/cv_test/prefix_override:/home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/samuel/flir_subscriber/build/cv_test/build
+[1.648s] running develop
+[1.750s] interrupted
+[1.796s] Invoked command in '/home/samuel/flir_subscriber/build/cv_test' returned '1': PYTHONPATH=/home/samuel/flir_subscriber/build/cv_test/prefix_override:/home/samuel/flir_subscriber/install/cv_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/samuel/flir_subscriber/build/cv_test/build

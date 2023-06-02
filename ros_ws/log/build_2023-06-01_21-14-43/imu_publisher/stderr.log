@@ -1,0 +1,5 @@
+  File "/home/johnsmith/Desktop/underwater/ros_ws/install/imu_publisher/lib/python3.8/site-packages/imu_publisher/imu_publisher_node.py", line 24
+    msg.data = f"{}"
+               ^
+SyntaxError: f-string: empty expression not allowed
+

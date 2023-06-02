@@ -1,0 +1,23 @@
+[1.382s] Invoking command in '/home/samuel/flir_subscriber/build/flir_subscriber': PYTHONPATH=/home/samuel/flir_subscriber/build/flir_subscriber/prefix_override:/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/samuel/flir_subscriber/build/flir_subscriber/build --no-deps install_data
+[1.716s] running develop
+[1.903s] running egg_info
+[1.903s] writing flir_subscriber.egg-info/PKG-INFO
+[1.903s] writing dependency_links to flir_subscriber.egg-info/dependency_links.txt
+[1.904s] writing entry points to flir_subscriber.egg-info/entry_points.txt
+[1.904s] writing requirements to flir_subscriber.egg-info/requires.txt
+[1.904s] writing top-level names to flir_subscriber.egg-info/top_level.txt
+[1.946s] reading manifest file 'flir_subscriber.egg-info/SOURCES.txt'
+[1.947s] writing manifest file 'flir_subscriber.egg-info/SOURCES.txt'
+[1.996s] running build_ext
+[2.002s] Creating /home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/site.py
+[2.006s] Creating /home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir-subscriber.egg-link (link to .)
+[2.007s] Installing flir_subscriber script to /home/samuel/flir_subscriber/install/flir_subscriber/lib/flir_subscriber
+[2.007s] 
+[2.008s] Installed /home/samuel/flir_subscriber/build/flir_subscriber
+[2.008s] running install_data
+[2.008s] creating /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index
+[2.008s] creating /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index/resource_index
+[2.008s] creating /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index/resource_index/packages
+[2.008s] copying resource/flir_subscriber -> /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index/resource_index/packages
+[2.009s] copying package.xml -> /home/samuel/flir_subscriber/install/flir_subscriber/share/flir_subscriber
+[2.134s] Invoked command in '/home/samuel/flir_subscriber/build/flir_subscriber' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/flir_subscriber/prefix_override:/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/samuel/flir_subscriber/build/flir_subscriber/build --no-deps install_data

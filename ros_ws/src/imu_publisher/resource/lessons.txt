@@ -1,0 +1,5 @@
+To change the bitrate:
+
+sudo ip link set can0 down
+sudo ip link set can0 type can bitrate <new_bitrate>
+sudo ip link set can0 up

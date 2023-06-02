@@ -1,0 +1,21 @@
+[1.369s] Invoking command in '/home/samuel/flir_subscriber/src/helloworld': PYTHONPATH=/home/samuel/flir_subscriber/build/helloworld/prefix_override:/home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/samuel/flir_subscriber/build/helloworld/build install --record /home/samuel/flir_subscriber/build/helloworld/install.log --install-scripts $base/lib/helloworld --single-version-externally-managed
+[1.676s] running egg_info
+[1.677s] writing ../../build/helloworld/helloworld.egg-info/PKG-INFO
+[1.678s] writing dependency_links to ../../build/helloworld/helloworld.egg-info/dependency_links.txt
+[1.678s] writing entry points to ../../build/helloworld/helloworld.egg-info/entry_points.txt
+[1.678s] writing requirements to ../../build/helloworld/helloworld.egg-info/requires.txt
+[1.678s] writing top-level names to ../../build/helloworld/helloworld.egg-info/top_level.txt
+[1.726s] reading manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[1.727s] writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[1.727s] running build
+[1.727s] running build_py
+[1.727s] running install
+[1.731s] running install_lib
+[1.733s] running install_data
+[1.733s] running install_egg_info
+[1.736s] removing '/home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld-0.0.0-py3.8.egg-info' (and everything under it)
+[1.736s] Copying ../../build/helloworld/helloworld.egg-info to /home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages/helloworld-0.0.0-py3.8.egg-info
+[1.738s] running install_scripts
+[1.764s] Installing helloworld script to /home/samuel/flir_subscriber/install/helloworld/lib/helloworld
+[1.764s] writing list of installed files to '/home/samuel/flir_subscriber/build/helloworld/install.log'
+[1.815s] Invoked command in '/home/samuel/flir_subscriber/src/helloworld' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/helloworld/prefix_override:/home/samuel/flir_subscriber/install/helloworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/samuel/flir_subscriber/build/helloworld/build install --record /home/samuel/flir_subscriber/build/helloworld/install.log --install-scripts $base/lib/helloworld --single-version-externally-managed

@@ -1,0 +1,21 @@
+[1.680s] Invoking command in '/home/samuel/flir_subscriber/src/experiment': PYTHONPATH=/home/samuel/flir_subscriber/build/experiment/prefix_override:/home/samuel/flir_subscriber/install/experiment/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/experiment build --build-base /home/samuel/flir_subscriber/build/experiment/build install --record /home/samuel/flir_subscriber/build/experiment/install.log --install-scripts $base/lib/experiment --single-version-externally-managed
+[1.987s] running egg_info
+[1.988s] writing ../../build/experiment/experiment.egg-info/PKG-INFO
+[1.989s] writing dependency_links to ../../build/experiment/experiment.egg-info/dependency_links.txt
+[1.989s] writing entry points to ../../build/experiment/experiment.egg-info/entry_points.txt
+[1.990s] writing requirements to ../../build/experiment/experiment.egg-info/requires.txt
+[1.990s] writing top-level names to ../../build/experiment/experiment.egg-info/top_level.txt
+[2.037s] reading manifest file '../../build/experiment/experiment.egg-info/SOURCES.txt'
+[2.038s] writing manifest file '../../build/experiment/experiment.egg-info/SOURCES.txt'
+[2.038s] running build
+[2.038s] running build_py
+[2.039s] running install
+[2.044s] running install_lib
+[2.046s] running install_data
+[2.046s] running install_egg_info
+[2.049s] removing '/home/samuel/flir_subscriber/install/experiment/lib/python3.8/site-packages/experiment-0.0.0-py3.8.egg-info' (and everything under it)
+[2.049s] Copying ../../build/experiment/experiment.egg-info to /home/samuel/flir_subscriber/install/experiment/lib/python3.8/site-packages/experiment-0.0.0-py3.8.egg-info
+[2.050s] running install_scripts
+[2.075s] Installing my_node script to /home/samuel/flir_subscriber/install/experiment/lib/experiment
+[2.076s] writing list of installed files to '/home/samuel/flir_subscriber/build/experiment/install.log'
+[2.127s] Invoked command in '/home/samuel/flir_subscriber/src/experiment' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/experiment/prefix_override:/home/samuel/flir_subscriber/install/experiment/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/experiment build --build-base /home/samuel/flir_subscriber/build/experiment/build install --record /home/samuel/flir_subscriber/build/experiment/install.log --install-scripts $base/lib/experiment --single-version-externally-managed

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing flir_subscriber.egg-info/PKG-INFO
+writing dependency_links to flir_subscriber.egg-info/dependency_links.txt
+writing entry points to flir_subscriber.egg-info/entry_points.txt
+writing requirements to flir_subscriber.egg-info/requires.txt
+writing top-level names to flir_subscriber.egg-info/top_level.txt
+reading manifest file 'flir_subscriber.egg-info/SOURCES.txt'
+writing manifest file 'flir_subscriber.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/site.py
+Creating /home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir-subscriber.egg-link (link to .)
+Installing flir_subscriber script to /home/samuel/flir_subscriber/install/flir_subscriber/lib/flir_subscriber
+
+Installed /home/samuel/flir_subscriber/build/flir_subscriber
+running install_data
+creating /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index
+creating /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index/resource_index
+creating /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index/resource_index/packages
+copying resource/flir_subscriber -> /home/samuel/flir_subscriber/install/flir_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/samuel/flir_subscriber/install/flir_subscriber/share/flir_subscriber

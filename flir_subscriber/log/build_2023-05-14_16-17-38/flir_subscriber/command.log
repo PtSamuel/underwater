@@ -1,0 +1,1 @@
+Invoking command in '/home/samuel/flir_subscriber/build/flir_subscriber': PYTHONPATH=/home/samuel/flir_subscriber/build/flir_subscriber/prefix_override:/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/samuel/flir_subscriber/build/flir_subscriber/build

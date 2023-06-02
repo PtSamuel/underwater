@@ -1,0 +1,24 @@
+[1.293s] Invoking command in '/home/samuel/flir_subscriber/build/flir_subscriber': PYTHONPATH=/home/samuel/flir_subscriber/build/flir_subscriber/prefix_override:/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/samuel/flir_subscriber/build/flir_subscriber/build
+[1.620s] running develop
+[1.858s] Invoked command in '/home/samuel/flir_subscriber/build/flir_subscriber' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/flir_subscriber/prefix_override:/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/samuel/flir_subscriber/build/flir_subscriber/build
+[1.865s] Invoking command in '/home/samuel/flir_subscriber/src/flir_subscriber': PYTHONPATH=/home/samuel/flir_subscriber/build/flir_subscriber/prefix_override:/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flir_subscriber build --build-base /home/samuel/flir_subscriber/build/flir_subscriber/build install --record /home/samuel/flir_subscriber/build/flir_subscriber/install.log --install-scripts $base/lib/flir_subscriber --single-version-externally-managed
+[2.163s] running egg_info
+[2.164s] writing ../../build/flir_subscriber/flir_subscriber.egg-info/PKG-INFO
+[2.164s] writing dependency_links to ../../build/flir_subscriber/flir_subscriber.egg-info/dependency_links.txt
+[2.164s] writing entry points to ../../build/flir_subscriber/flir_subscriber.egg-info/entry_points.txt
+[2.165s] writing requirements to ../../build/flir_subscriber/flir_subscriber.egg-info/requires.txt
+[2.165s] writing top-level names to ../../build/flir_subscriber/flir_subscriber.egg-info/top_level.txt
+[2.213s] reading manifest file '../../build/flir_subscriber/flir_subscriber.egg-info/SOURCES.txt'
+[2.214s] writing manifest file '../../build/flir_subscriber/flir_subscriber.egg-info/SOURCES.txt'
+[2.214s] running build
+[2.215s] running build_py
+[2.215s] running install
+[2.218s] running install_lib
+[2.221s] running install_data
+[2.221s] running install_egg_info
+[2.224s] removing '/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[2.224s] Copying ../../build/flir_subscriber/flir_subscriber.egg-info to /home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir_subscriber-0.0.0-py3.8.egg-info
+[2.225s] running install_scripts
+[2.251s] Installing flir_subscriber script to /home/samuel/flir_subscriber/install/flir_subscriber/lib/flir_subscriber
+[2.252s] writing list of installed files to '/home/samuel/flir_subscriber/build/flir_subscriber/install.log'
+[2.306s] Invoked command in '/home/samuel/flir_subscriber/src/flir_subscriber' returned '0': PYTHONPATH=/home/samuel/flir_subscriber/build/flir_subscriber/prefix_override:/home/samuel/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flir_subscriber build --build-base /home/samuel/flir_subscriber/build/flir_subscriber/build install --record /home/samuel/flir_subscriber/build/flir_subscriber/install.log --install-scripts $base/lib/flir_subscriber --single-version-externally-managed

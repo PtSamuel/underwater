@@ -1,0 +1,24 @@
+[1.255s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_subscriber/src/flir_subscriber': PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flir_subscriber build --build-base /home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/build install --record /home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/install.log --install-scripts $base/lib/flir_subscriber --single-version-externally-managed
+[1.675s] running egg_info
+[1.676s] writing ../../build/flir_subscriber/flir_subscriber.egg-info/PKG-INFO
+[1.677s] writing dependency_links to ../../build/flir_subscriber/flir_subscriber.egg-info/dependency_links.txt
+[1.677s] writing entry points to ../../build/flir_subscriber/flir_subscriber.egg-info/entry_points.txt
+[1.677s] writing requirements to ../../build/flir_subscriber/flir_subscriber.egg-info/requires.txt
+[1.678s] writing top-level names to ../../build/flir_subscriber/flir_subscriber.egg-info/top_level.txt
+[1.737s] reading manifest file '../../build/flir_subscriber/flir_subscriber.egg-info/SOURCES.txt'
+[1.740s] writing manifest file '../../build/flir_subscriber/flir_subscriber.egg-info/SOURCES.txt'
+[1.740s] running build
+[1.740s] running build_py
+[1.741s] copying flir_subscriber/run_model.py -> /home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/build/lib/flir_subscriber
+[1.742s] running install
+[1.744s] running install_lib
+[1.747s] copying /home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/build/lib/flir_subscriber/run_model.py -> /home/johnsmith/Desktop/underwater/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir_subscriber
+[1.748s] byte-compiling /home/johnsmith/Desktop/underwater/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir_subscriber/run_model.py to run_model.cpython-38.pyc
+[1.755s] running install_data
+[1.755s] running install_egg_info
+[1.755s] removing '/home/johnsmith/Desktop/underwater/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[1.756s] Copying ../../build/flir_subscriber/flir_subscriber.egg-info to /home/johnsmith/Desktop/underwater/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages/flir_subscriber-0.0.0-py3.8.egg-info
+[1.758s] running install_scripts
+[1.793s] Installing flir_subscriber script to /home/johnsmith/Desktop/underwater/flir_subscriber/install/flir_subscriber/lib/flir_subscriber
+[1.794s] writing list of installed files to '/home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/install.log'
+[1.860s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_subscriber/src/flir_subscriber' returned '0': PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/flir_subscriber/install/flir_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flir_subscriber build --build-base /home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/build install --record /home/johnsmith/Desktop/underwater/flir_subscriber/build/flir_subscriber/install.log --install-scripts $base/lib/flir_subscriber --single-version-externally-managed
