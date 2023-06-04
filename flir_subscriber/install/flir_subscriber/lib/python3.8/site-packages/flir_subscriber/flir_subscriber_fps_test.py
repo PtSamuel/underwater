@@ -40,7 +40,8 @@ class ImageSubscriber(Node):
         width = msg.width
         height = msg.height
         capture = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
-        capture_display = cv2.resize(capture, (width // 4, height // 4))
+        capture_display = capture
+        # capture_display = cv2.resize(capture, (width // 4, height // 4))
 
         cur = self.get_clock().now()
         if self.prev is None:
@@ -62,11 +63,11 @@ class ImageSubscriber(Node):
         p, prediction = run_model.predict(capture_display)
         text = f"result: {prediction} ({float(p):.3%}) {fps_display}"
 
-        self.draw_label(capture_display, text)
+        # self.draw_label(capture_display, text)
         
-        capture_display = cv2.resize(capture_display, (width // 8, height // 8))
-        cv2.imshow("capture", capture_display)
-        cv2.waitKey(50)
+        # capture_display = cv2.resize(capture_display, (width // 8, height // 8))
+        # cv2.imshow("capture", capture_display)
+        # cv2.waitKey(50)
 
         self.get_logger().info(text)
 

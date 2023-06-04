@@ -6,7 +6,7 @@ import json
 import numpy as np
 
 model = models.resnet50(pretrained=True)
-# model.to("cuda")
+model.to("cuda")
 model.eval()
 preprocess = transforms.Compose([
     transforms.Resize(256),
@@ -14,12 +14,11 @@ preprocess = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
-labels_path = "/home/johnsmith/Desktop/underwater/flir_subscriber/src/flir_subscriber/resource/resnet_labels.txt"
+labels_path = "./src/flir_subscriber/resource/resnet_labels.txt"
 
 def predict(capture):
     image = Image.fromarray(capture)
-    # input_tensor = preprocess(image).to("cuda")
-    input_tensor = preprocess(image)
+    input_tensor = preprocess(image).to("cuda")
     input_batch = input_tensor.unsqueeze(0)
     with torch.no_grad():
         output = model(input_batch)
