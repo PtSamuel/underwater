@@ -1,0 +1,55 @@
+[0.090s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common
+[0.126s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.190s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.010s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.027s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.032s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.052s] -- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+[1.053s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[1.054s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[1.056s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[1.057s] -- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[1.058s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[1.065s] -- Found ament_cmake_clang_format: 0.9.8 (/opt/ros/foxy/share/ament_cmake_clang_format/cmake)
+[1.071s] -- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)
+[1.316s] -- Configuring done
+[1.343s] -- Generating done
+[1.345s] -- Build files have been written to: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common
+[1.363s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common
+[1.365s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common -- -j4 -l4
+[1.765s] [35m[1mScanning dependencies of target flir_spinnaker_common[0m
+[2.098s] [ 16%] [32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/driver.cpp.o[0m
+[2.102s] [ 50%] [32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/pixel_format.cpp.o[0m
+[2.102s] [ 50%] [32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/driver_impl.cpp.o[0m
+[2.132s] [ 66%] [32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/image.cpp.o[0m
+[3.912s] [ 83%] [32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/genicam_utils.cpp.o[0m
+[9.510s] [100%] [32m[1mLinking CXX shared library libflir_spinnaker_common.so[0m
+[9.764s] [100%] Built target flir_spinnaker_common
+[9.828s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common -- -j4 -l4
+[9.944s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common
+[9.970s] -- Install configuration: "RelWithDebInfo"
+[9.971s] -- Execute custom install script
+[9.987s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/include/flir_spinnaker_common/driver.h
+[10.018s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/include/flir_spinnaker_common/image.h
+[10.038s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/include/flir_spinnaker_common/pixel_format.h
+[10.061s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/ament_index/resource_index/package_run_dependencies/flir_spinnaker_common
+[10.083s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/ament_index/resource_index/parent_prefix_path/flir_spinnaker_common
+[10.122s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/ament_prefix_path.sh
+[10.152s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/ament_prefix_path.dsv
+[10.172s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/path.sh
+[10.193s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/path.dsv
+[10.228s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.bash
+[10.255s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.sh
+[10.280s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.zsh
+[10.308s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.dsv
+[10.340s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/package.dsv
+[10.361s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/ament_index/resource_index/packages/flir_spinnaker_common
+[10.399s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/ament_cmake_export_targets-extras.cmake
+[10.407s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/flir_spinnaker_commonConfig.cmake
+[10.433s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/flir_spinnaker_commonConfig-version.cmake
+[10.452s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/package.xml
+[10.477s] -- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib/libflir_spinnaker_common.so
+[10.481s] -- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib/libflir_spinnaker_common.so" to ""
+[10.482s] -- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/export_flir_spinnaker_commonExport.cmake
+[10.483s] -- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/export_flir_spinnaker_commonExport-relwithdebinfo.cmake
+[10.490s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common

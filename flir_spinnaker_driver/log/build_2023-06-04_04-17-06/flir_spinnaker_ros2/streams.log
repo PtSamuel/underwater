@@ -1,0 +1,101 @@
+[0.033s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2': AMENT_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_ros2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2
+[0.132s] -- The C compiler identification is GNU 9.4.0
+[0.222s] -- The CXX compiler identification is GNU 9.4.0
+[0.230s] -- Check for working C compiler: /usr/bin/cc
+[0.356s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.357s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.502s] -- Detecting C compile features
+[0.502s] -- Detecting C compile features - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++
+[0.648s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.650s] -- Detecting CXX compiler ABI info
+[0.797s] -- Detecting CXX compiler ABI info - done
+[0.816s] -- Detecting CXX compile features
+[0.816s] -- Detecting CXX compile features - done
+[0.821s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.871s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.871s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.271s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.274s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.288s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.383s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.523s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.576s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.821s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.827s] -- Looking for pthread.h
+[1.967s] -- Looking for pthread.h - found
+[1.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.113s] -- Looking for pthread_create in pthreads
+[2.226s] -- Looking for pthread_create in pthreads - not found
+[2.226s] -- Looking for pthread_create in pthread
+[2.356s] -- Looking for pthread_create in pthread - found
+[2.358s] -- Found Threads: TRUE  
+[2.627s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.735s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.935s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[2.969s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.044s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[3.114s] -- Found flir_spinnaker_common: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake)
+[3.116s] -- Found image_meta_msgs_ros2: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake)
+[3.179s] -- Found camera_control_msgs_ros2: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake)
+[3.482s] -- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+[3.485s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[3.487s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[3.490s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[3.493s] -- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[3.495s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[3.498s] -- Found ament_cmake_clang_format: 0.9.8 (/opt/ros/foxy/share/ament_cmake_clang_format/cmake)
+[3.501s] -- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)
+[3.523s] -- Configuring done
+[3.579s] -- Generating done
+[3.583s] -- Build files have been written to: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2
+[3.608s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2' returned '0': AMENT_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_ros2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2
+[3.613s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2': AMENT_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2 -- -j4 -l4
+[3.698s] [35m[1mScanning dependencies of target camera_driver[0m
+[3.833s] [ 25%] [32mBuilding CXX object CMakeFiles/camera_driver.dir/src/camera_driver.cpp.o[0m
+[36.845s] [ 50%] [32m[1mLinking CXX shared library libcamera_driver.so[0m
+[37.340s] [ 50%] Built target camera_driver
+[37.359s] [35m[1mScanning dependencies of target camera_driver_node[0m
+[37.437s] [ 75%] [32mBuilding CXX object CMakeFiles/camera_driver_node.dir/src/camera_driver_node.cpp.o[0m
+[42.930s] [100%] [32m[1mLinking CXX executable camera_driver_node[0m
+[43.261s] [100%] Built target camera_driver_node
+[43.286s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2' returned '0': AMENT_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2 -- -j4 -l4
+[43.337s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2': AMENT_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2
+[43.356s] -- Install configuration: "RelWithDebInfo"
+[43.357s] -- Execute custom install script
+[43.358s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/lib/flir_spinnaker_ros2//camera_driver_node
+[43.377s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/lib/libcamera_driver.so
+[43.396s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/blackfly_s.cfg
+[43.414s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/blackfly_s_gige.cfg
+[43.433s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/chameleon.cfg
+[43.451s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/example.yaml
+[43.468s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/grasshopper.cfg
+[43.487s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/blackfly_s.launch.py
+[43.505s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/blackfly_s_gige.launch.py
+[43.523s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/chameleon.launch.py
+[43.551s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/grasshopper.launch.py
+[43.571s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/grasshopper_with_exp_control.launch.py
+[43.592s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/stereo_synced.launch.py
+[43.614s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/package_run_dependencies/flir_spinnaker_ros2
+[43.638s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/parent_prefix_path/flir_spinnaker_ros2
+[43.660s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/ament_prefix_path.sh
+[43.684s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/ament_prefix_path.dsv
+[43.706s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/path.sh
+[43.725s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/path.dsv
+[43.746s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.bash
+[43.770s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.sh
+[43.791s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.zsh
+[43.810s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.dsv
+[43.829s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/package.dsv
+[43.848s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/packages/flir_spinnaker_ros2
+[43.869s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/rclcpp_components/flir_spinnaker_ros2
+[43.890s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/cmake/flir_spinnaker_ros2Config.cmake
+[43.909s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/cmake/flir_spinnaker_ros2Config-version.cmake
+[43.929s] -- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/package.xml
+[43.959s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2' returned '0': AMENT_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2

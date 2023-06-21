@@ -1,0 +1,1031 @@
+[0.000000] (-) TimerEvent: {}
+[0.000503] (camera_control_msgs_ros2) JobQueued: {'identifier': 'camera_control_msgs_ros2', 'dependencies': OrderedDict()}
+[0.000830] (flir_spinnaker_common) JobQueued: {'identifier': 'flir_spinnaker_common', 'dependencies': OrderedDict()}
+[0.000899] (image_meta_msgs_ros2) JobQueued: {'identifier': 'image_meta_msgs_ros2', 'dependencies': OrderedDict()}
+[0.000944] (flir_spinnaker_ros2) JobQueued: {'identifier': 'flir_spinnaker_ros2', 'dependencies': OrderedDict([('camera_control_msgs_ros2', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2'), ('flir_spinnaker_common', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common'), ('image_meta_msgs_ros2', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2')])}
+[0.002212] (camera_control_msgs_ros2) JobStarted: {'identifier': 'camera_control_msgs_ros2'}
+[0.029435] (flir_spinnaker_common) JobStarted: {'identifier': 'flir_spinnaker_common'}
+[0.058416] (image_meta_msgs_ros2) JobStarted: {'identifier': 'image_meta_msgs_ros2'}
+[0.076969] (camera_control_msgs_ros2) JobProgress: {'identifier': 'camera_control_msgs_ros2', 'progress': 'cmake'}
+[0.081860] (camera_control_msgs_ros2) JobProgress: {'identifier': 'camera_control_msgs_ros2', 'progress': 'build'}
+[0.082154] (camera_control_msgs_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/camera_control_msgs_ros2', '--', '-j4', '-l4'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/camera_control_msgs_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/camera_control_msgs_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100387] (-) TimerEvent: {}
+[0.109373] (flir_spinnaker_common) JobProgress: {'identifier': 'flir_spinnaker_common', 'progress': 'cmake'}
+[0.110860] (flir_spinnaker_common) Command: {'cmd': ['/usr/bin/cmake', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.127862] (image_meta_msgs_ros2) JobProgress: {'identifier': 'image_meta_msgs_ros2', 'progress': 'cmake'}
+[0.131480] (image_meta_msgs_ros2) JobProgress: {'identifier': 'image_meta_msgs_ros2', 'progress': 'build'}
+[0.132255] (image_meta_msgs_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/image_meta_msgs_ros2', '--', '-j4', '-l4'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/image_meta_msgs_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/image_meta_msgs_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.155363] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.201153] (-) TimerEvent: {}
+[0.219315] (flir_spinnaker_common) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.240991] (camera_control_msgs_ros2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.261599] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__cpp\x1b[0m\n'}
+[0.274471] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__cpp\x1b[0m\n'}
+[0.287764] (image_meta_msgs_ros2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.301299] (-) TimerEvent: {}
+[0.306191] (image_meta_msgs_ros2) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.314302] (camera_control_msgs_ros2) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.401458] (-) TimerEvent: {}
+[0.502109] (-) TimerEvent: {}
+[0.602805] (-) TimerEvent: {}
+[0.703435] (-) TimerEvent: {}
+[0.804327] (-) TimerEvent: {}
+[0.904994] (-) TimerEvent: {}
+[1.005653] (-) TimerEvent: {}
+[1.040140] (flir_spinnaker_common) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.056540] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[1.062180] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.065839] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_generator_c\x1b[0m\n'}
+[1.082121] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)\n'}
+[1.083206] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[1.084371] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[1.085462] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[1.086507] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)\n'}
+[1.087529] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[1.094461] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.9.8 (/opt/ros/foxy/share/ament_cmake_clang_format/cmake)\n'}
+[1.095007] (image_meta_msgs_ros2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/image_meta_msgs_ros2__rosidl_generator_c.dir/rosidl_generator_c/image_meta_msgs_ros2/msg/detail/image_meta_data__functions.c.o\x1b[0m\n'}
+[1.096420] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_generator_c\x1b[0m\n'}
+[1.100475] (flir_spinnaker_common) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)\n'}
+[1.105768] (-) TimerEvent: {}
+[1.117818] (image_meta_msgs_ros2) StdoutLine: {'line': b'[  9%] Built target image_meta_msgs_ros2__cpp\n'}
+[1.168855] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.176990] (camera_control_msgs_ros2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/camera_control_msgs_ros2__rosidl_generator_c.dir/rosidl_generator_c/camera_control_msgs_ros2/msg/detail/camera_control__functions.c.o\x1b[0m\n'}
+[1.184291] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.193170] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.205965] (-) TimerEvent: {}
+[1.306724] (-) TimerEvent: {}
+[1.345355] (flir_spinnaker_common) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.372622] (flir_spinnaker_common) StdoutLine: {'line': b'-- Generating done\n'}
+[1.375213] (flir_spinnaker_common) StdoutLine: {'line': b'-- Build files have been written to: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common\n'}
+[1.391461] (flir_spinnaker_common) CommandEnded: {'returncode': 0}
+[1.394104] (flir_spinnaker_common) JobProgress: {'identifier': 'flir_spinnaker_common', 'progress': 'build'}
+[1.394221] (flir_spinnaker_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common', '--', '-j4', '-l4'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.406881] (-) TimerEvent: {}
+[1.419079] (camera_control_msgs_ros2) StdoutLine: {'line': b'[  9%] Built target camera_control_msgs_ros2__cpp\n'}
+[1.507067] (-) TimerEvent: {}
+[1.512038] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.544563] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.560454] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.607289] (-) TimerEvent: {}
+[1.708264] (-) TimerEvent: {}
+[1.731685] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcamera_control_msgs_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[1.789477] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libimage_meta_msgs_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[1.794445] (flir_spinnaker_common) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_spinnaker_common\x1b[0m\n'}
+[1.808333] (-) TimerEvent: {}
+[1.909203] (-) TimerEvent: {}
+[2.009864] (-) TimerEvent: {}
+[2.028678] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 22%] Built target image_meta_msgs_ros2__rosidl_generator_c\n'}
+[2.035401] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 22%] Built target camera_control_msgs_ros2__rosidl_generator_c\n'}
+[2.110035] (-) TimerEvent: {}
+[2.127557] (flir_spinnaker_common) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/driver.cpp.o\x1b[0m\n'}
+[2.131677] (flir_spinnaker_common) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/pixel_format.cpp.o\x1b[0m\n'}
+[2.132144] (flir_spinnaker_common) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/driver_impl.cpp.o\x1b[0m\n'}
+[2.155156] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.161370] (flir_spinnaker_common) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/image.cpp.o\x1b[0m\n'}
+[2.168117] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.210190] (-) TimerEvent: {}
+[2.311045] (-) TimerEvent: {}
+[2.411900] (-) TimerEvent: {}
+[2.512839] (-) TimerEvent: {}
+[2.535526] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.612994] (-) TimerEvent: {}
+[2.705778] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/image_meta_msgs_ros2/msg/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[2.713137] (-) TimerEvent: {}
+[2.814091] (-) TimerEvent: {}
+[2.915684] (-) TimerEvent: {}
+[2.921962] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.015931] (-) TimerEvent: {}
+[3.060295] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.103105] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/image_meta_msgs_ros2/msg/detail/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[3.116091] (-) TimerEvent: {}
+[3.214140] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/image_meta_msgs_ros2/msg/detail/dds_fastrtps/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[3.216192] (-) TimerEvent: {}
+[3.316813] (-) TimerEvent: {}
+[3.352987] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.416994] (-) TimerEvent: {}
+[3.422035] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.473941] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_control_msgs_ros2/msg/detail/camera_control__type_support.cpp.o\x1b[0m\n'}
+[3.517189] (-) TimerEvent: {}
+[3.529966] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_control_msgs_ros2/msg/camera_control__type_support.cpp.o\x1b[0m\n'}
+[3.546568] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.617382] (-) TimerEvent: {}
+[3.690119] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_control_msgs_ros2/msg/detail/dds_fastrtps/camera_control__type_support.cpp.o\x1b[0m\n'}
+[3.717569] (-) TimerEvent: {}
+[3.820418] (-) TimerEvent: {}
+[3.921174] (-) TimerEvent: {}
+[3.941711] (flir_spinnaker_common) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/flir_spinnaker_common.dir/src/genicam_utils.cpp.o\x1b[0m\n'}
+[4.021375] (-) TimerEvent: {}
+[4.122328] (-) TimerEvent: {}
+[4.223284] (-) TimerEvent: {}
+[4.324264] (-) TimerEvent: {}
+[4.335409] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.424423] (-) TimerEvent: {}
+[4.496037] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_control_msgs_ros2/msg/detail/camera_control__type_support.c.o\x1b[0m\n'}
+[4.504773] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.524616] (-) TimerEvent: {}
+[4.619550] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/image_meta_msgs_ros2/msg/detail/image_meta_data__type_support.c.o\x1b[0m\n'}
+[4.624792] (-) TimerEvent: {}
+[4.725516] (-) TimerEvent: {}
+[4.807071] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libcamera_control_msgs_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.825705] (-) TimerEvent: {}
+[4.913934] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 41%] Built target camera_control_msgs_ros2__rosidl_typesupport_introspection_c\n'}
+[4.925907] (-) TimerEvent: {}
+[4.944623] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libimage_meta_msgs_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.008590] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.026121] (-) TimerEvent: {}
+[5.054431] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libimage_meta_msgs_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.126315] (-) TimerEvent: {}
+[5.227277] (-) TimerEvent: {}
+[5.254461] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 45%] Built target image_meta_msgs_ros2__rosidl_typesupport_cpp\n'}
+[5.271384] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 45%] Built target image_meta_msgs_ros2__rosidl_typesupport_introspection_c\n'}
+[5.327442] (-) TimerEvent: {}
+[5.336526] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.361454] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libimage_meta_msgs_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.427608] (-) TimerEvent: {}
+[5.528368] (-) TimerEvent: {}
+[5.629094] (-) TimerEvent: {}
+[5.721246] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 51%] Built target image_meta_msgs_ros2__rosidl_typesupport_introspection_cpp\n'}
+[5.729270] (-) TimerEvent: {}
+[5.829986] (-) TimerEvent: {}
+[5.930758] (-) TimerEvent: {}
+[5.953904] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_control_msgs_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.031009] (-) TimerEvent: {}
+[6.054757] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_control_msgs_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.131453] (-) TimerEvent: {}
+[6.205366] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 51%] Built target camera_control_msgs_ros2__rosidl_typesupport_cpp\n'}
+[6.231665] (-) TimerEvent: {}
+[6.324521] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_c\x1b[0m\n'}
+[6.331877] (-) TimerEvent: {}
+[6.379895] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_control_msgs_ros2/msg/camera_control__type_support.cpp.o\x1b[0m\n'}
+[6.432074] (-) TimerEvent: {}
+[6.436561] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 54%] Built target camera_control_msgs_ros2__rosidl_typesupport_introspection_cpp\n'}
+[6.463238] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_c\x1b[0m\n'}
+[6.532314] (-) TimerEvent: {}
+[6.539463] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/image_meta_msgs_ros2/msg/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[6.592549] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_control_msgs_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.632498] (-) TimerEvent: {}
+[6.721845] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libimage_meta_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.732683] (-) TimerEvent: {}
+[6.765478] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 58%] Built target camera_control_msgs_ros2__rosidl_typesupport_c\n'}
+[6.768808] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libimage_meta_msgs_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.824725] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_control_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.832881] (-) TimerEvent: {}
+[6.933854] (-) TimerEvent: {}
+[7.005468] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 61%] Built target image_meta_msgs_ros2__rosidl_typesupport_c\n'}
+[7.034048] (-) TimerEvent: {}
+[7.106453] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 61%] Built target image_meta_msgs_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[7.128041] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 61%] Built target camera_control_msgs_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[7.134254] (-) TimerEvent: {}
+[7.154462] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.189874] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.234417] (-) TimerEvent: {}
+[7.335273] (-) TimerEvent: {}
+[7.436026] (-) TimerEvent: {}
+[7.536842] (-) TimerEvent: {}
+[7.637613] (-) TimerEvent: {}
+[7.738780] (-) TimerEvent: {}
+[7.772479] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.801046] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.802671] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_control_msgs_ros2/msg/detail/camera_control__type_support_c.cpp.o\x1b[0m\n'}
+[7.831737] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/image_meta_msgs_ros2/msg/detail/image_meta_data__type_support_c.cpp.o\x1b[0m\n'}
+[7.838971] (-) TimerEvent: {}
+[7.940036] (-) TimerEvent: {}
+[8.041546] (-) TimerEvent: {}
+[8.142663] (-) TimerEvent: {}
+[8.243674] (-) TimerEvent: {}
+[8.344429] (-) TimerEvent: {}
+[8.445941] (-) TimerEvent: {}
+[8.553073] (-) TimerEvent: {}
+[8.653825] (-) TimerEvent: {}
+[8.754637] (-) TimerEvent: {}
+[8.769797] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_control_msgs_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.858417] (-) TimerEvent: {}
+[8.941742] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libimage_meta_msgs_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.964354] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 70%] Built target camera_control_msgs_ros2__rosidl_typesupport_fastrtps_c\n'}
+[8.964896] (-) TimerEvent: {}
+[8.992409] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2\x1b[0m\n'}
+[9.042042] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 70%] Built target camera_control_msgs_ros2\n'}
+[9.065117] (-) TimerEvent: {}
+[9.065838] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__py\x1b[0m\n'}
+[9.093140] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.165268] (-) TimerEvent: {}
+[9.190353] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 70%] Built target image_meta_msgs_ros2__rosidl_typesupport_fastrtps_c\n'}
+[9.214159] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2\x1b[0m\n'}
+[9.238288] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 70%] Built target image_meta_msgs_ros2\n'}
+[9.261685] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__py\x1b[0m\n'}
+[9.265588] (-) TimerEvent: {}
+[9.286341] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.365752] (-) TimerEvent: {}
+[9.466608] (-) TimerEvent: {}
+[9.539564] (flir_spinnaker_common) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libflir_spinnaker_common.so\x1b[0m\n'}
+[9.566753] (-) TimerEvent: {}
+[9.667410] (-) TimerEvent: {}
+[9.768043] (-) TimerEvent: {}
+[9.793524] (flir_spinnaker_common) StdoutLine: {'line': b'[100%] Built target flir_spinnaker_common\n'}
+[9.843070] (flir_spinnaker_common) CommandEnded: {'returncode': 0}
+[9.868285] (-) TimerEvent: {}
+[9.943468] (flir_spinnaker_common) JobProgress: {'identifier': 'flir_spinnaker_common', 'progress': 'install'}
+[9.973151] (flir_spinnaker_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.975279] (-) TimerEvent: {}
+[9.999808] (flir_spinnaker_common) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[10.001080] (flir_spinnaker_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.016264] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/include/flir_spinnaker_common/driver.h\n'}
+[10.047849] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/include/flir_spinnaker_common/image.h\n'}
+[10.067513] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/include/flir_spinnaker_common/pixel_format.h\n'}
+[10.075461] (-) TimerEvent: {}
+[10.090263] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/ament_index/resource_index/package_run_dependencies/flir_spinnaker_common\n'}
+[10.113227] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/ament_index/resource_index/parent_prefix_path/flir_spinnaker_common\n'}
+[10.151732] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/ament_prefix_path.sh\n'}
+[10.175616] (-) TimerEvent: {}
+[10.181938] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/ament_prefix_path.dsv\n'}
+[10.201618] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/path.sh\n'}
+[10.223079] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/environment/path.dsv\n'}
+[10.257748] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.bash\n'}
+[10.275842] (-) TimerEvent: {}
+[10.284756] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.sh\n'}
+[10.309963] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.zsh\n'}
+[10.337883] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/local_setup.dsv\n'}
+[10.369935] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/package.dsv\n'}
+[10.376027] (-) TimerEvent: {}
+[10.390750] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/ament_index/resource_index/packages/flir_spinnaker_common\n'}
+[10.403891] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 74%] Built target camera_control_msgs_ros2__py\n'}
+[10.428527] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 74%] Built target image_meta_msgs_ros2__py\n'}
+[10.429053] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.429254] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__python\x1b[0m\n'}
+[10.437188] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/flir_spinnaker_commonConfig.cmake\n'}
+[10.449840] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__python\x1b[0m\n'}
+[10.462420] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/flir_spinnaker_commonConfig-version.cmake\n'}
+[10.476236] (-) TimerEvent: {}
+[10.482068] (flir_spinnaker_common) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/package.xml\n'}
+[10.488969] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/camera_control_msgs_ros2__python.dir/rosidl_generator_py/camera_control_msgs_ros2/msg/_camera_control_s.c.o\x1b[0m\n'}
+[10.489492] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/image_meta_msgs_ros2__python.dir/rosidl_generator_py/image_meta_msgs_ros2/msg/_image_meta_data_s.c.o\x1b[0m\n'}
+[10.506617] (flir_spinnaker_common) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib/libflir_spinnaker_common.so\n'}
+[10.511211] (flir_spinnaker_common) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib/libflir_spinnaker_common.so" to ""\n'}
+[10.511646] (flir_spinnaker_common) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/export_flir_spinnaker_commonExport.cmake\n'}
+[10.513297] (flir_spinnaker_common) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/export_flir_spinnaker_commonExport-relwithdebinfo.cmake\n'}
+[10.518239] (flir_spinnaker_common) CommandEnded: {'returncode': 0}
+[10.576367] (-) TimerEvent: {}
+[10.666654] (flir_spinnaker_common) JobEnded: {'identifier': 'flir_spinnaker_common', 'rc': 0}
+[10.676474] (-) TimerEvent: {}
+[10.751055] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_control_msgs_ros2/libcamera_control_msgs_ros2__python.so\x1b[0m\n'}
+[10.767202] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/image_meta_msgs_ros2/libimage_meta_msgs_ros2__python.so\x1b[0m\n'}
+[10.776680] (-) TimerEvent: {}
+[10.834722] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 80%] Built target camera_control_msgs_ros2__python\n'}
+[10.848732] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 80%] Built target image_meta_msgs_ros2__python\n'}
+[10.855845] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.858633] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.872269] (camera_control_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_control_msgs_ros2__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.876823] (-) TimerEvent: {}
+[10.893152] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.900569] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.914493] (image_meta_msgs_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_meta_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.928438] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/camera_control_msgs_ros2/_camera_control_msgs_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.933767] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/image_meta_msgs_ros2/_image_meta_msgs_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.963634] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/camera_control_msgs_ros2/_camera_control_msgs_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.965444] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/image_meta_msgs_ros2/_image_meta_msgs_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.965997] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/camera_control_msgs_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/camera_control_msgs_ros2/_camera_control_msgs_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.977008] (-) TimerEvent: {}
+[11.002225] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/image_meta_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/image_meta_msgs_ros2/_image_meta_msgs_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.077198] (-) TimerEvent: {}
+[11.178217] (-) TimerEvent: {}
+[11.213328] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_control_msgs_ros2/camera_control_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.278406] (-) TimerEvent: {}
+[11.292965] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/camera_control_msgs_ros2/camera_control_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.327607] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/image_meta_msgs_ros2/image_meta_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.365323] (image_meta_msgs_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/image_meta_msgs_ros2/image_meta_msgs_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.370931] (camera_control_msgs_ros2) StdoutLine: {'line': b'[ 96%] Built target camera_control_msgs_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[11.378610] (-) TimerEvent: {}
+[11.387394] (image_meta_msgs_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/image_meta_msgs_ros2/image_meta_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.417889] (camera_control_msgs_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_control_msgs_ros2/camera_control_msgs_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.458142] (image_meta_msgs_ros2) StdoutLine: {'line': b'[100%] Built target image_meta_msgs_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[11.460886] (camera_control_msgs_ros2) StdoutLine: {'line': b'[100%] Built target camera_control_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.477640] (image_meta_msgs_ros2) StdoutLine: {'line': b'[100%] Built target image_meta_msgs_ros2__rosidl_typesupport_c__pyext\n'}
+[11.478695] (-) TimerEvent: {}
+[11.512917] (camera_control_msgs_ros2) StdoutLine: {'line': b'[100%] Built target camera_control_msgs_ros2__rosidl_typesupport_c__pyext\n'}
+[11.541890] (camera_control_msgs_ros2) CommandEnded: {'returncode': 0}
+[11.554731] (image_meta_msgs_ros2) StdoutLine: {'line': b'[100%] Built target image_meta_msgs_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.578870] (-) TimerEvent: {}
+[11.580486] (image_meta_msgs_ros2) CommandEnded: {'returncode': 0}
+[11.638306] (camera_control_msgs_ros2) JobProgress: {'identifier': 'camera_control_msgs_ros2', 'progress': 'install'}
+[11.639126] (camera_control_msgs_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/camera_control_msgs_ros2'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/camera_control_msgs_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/camera_control_msgs_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.662851] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[11.667004] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.674430] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/ament_index/resource_index/rosidl_interfaces/camera_control_msgs_ros2\n'}
+[11.674905] (image_meta_msgs_ros2) JobProgress: {'identifier': 'image_meta_msgs_ros2', 'progress': 'install'}
+[11.675041] (image_meta_msgs_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/image_meta_msgs_ros2'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/image_meta_msgs_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/image_meta_msgs_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.678977] (-) TimerEvent: {}
+[11.687760] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/camera_control.h\n'}
+[11.696029] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[11.697639] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.698431] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/ament_index/resource_index/rosidl_interfaces/image_meta_msgs_ros2\n'}
+[11.707444] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__functions.h\n'}
+[11.722103] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__functions.h\n'}
+[11.728403] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__struct.h\n'}
+[11.742581] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__struct.h\n'}
+[11.747448] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__type_support.h\n'}
+[11.761767] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__type_support.h\n'}
+[11.766326] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.779196] (-) TimerEvent: {}
+[11.782404] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/image_meta_data.h\n'}
+[11.784395] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/library_path.sh\n'}
+[11.800886] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.801657] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/library_path.dsv\n'}
+[11.820182] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__rosidl_typesupport_fastrtps_c.h\n'}
+[11.820742] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/library_path.sh\n'}
+[11.839093] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.839683] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/library_path.dsv\n'}
+[11.859083] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[11.861159] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__rosidl_typesupport_fastrtps_c.h\n'}
+[11.877507] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.878211] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.879263] (-) TimerEvent: {}
+[11.896046] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.896774] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[11.915193] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.915812] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.934469] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.940615] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__rosidl_typesupport_introspection_c.h\n'}
+[11.955186] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.959072] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.977399] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__rosidl_typesupport_introspection_c.h\n'}
+[11.978322] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/camera_control.hpp\n'}
+[11.979363] (-) TimerEvent: {}
+[11.995586] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__builder.hpp\n'}
+[11.996477] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.014745] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__struct.hpp\n'}
+[12.015327] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__builder.hpp\n'}
+[12.033384] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__traits.hpp\n'}
+[12.033878] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__struct.hpp\n'}
+[12.052610] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/include/camera_control_msgs_ros2/msg/detail/camera_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.053213] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__traits.hpp\n'}
+[12.071059] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/image_meta_data.hpp\n'}
+[12.071929] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/pythonpath.sh\n'}
+[12.079579] (-) TimerEvent: {}
+[12.091054] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/pythonpath.dsv\n'}
+[12.091577] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/include/image_meta_msgs_ros2/msg/detail/image_meta_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.110356] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages/camera_control_msgs_ros2/__init__.py\n'}
+[12.118845] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/pythonpath.sh\n'}
+[12.133103] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages/camera_control_msgs_ros2/msg/__init__.py\n'}
+[12.149559] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/pythonpath.dsv\n'}
+[12.162445] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages/camera_control_msgs_ros2/msg/_camera_control.py\n'}
+[12.169164] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages/image_meta_msgs_ros2/__init__.py\n'}
+[12.179802] (-) TimerEvent: {}
+[12.186512] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages/camera_control_msgs_ros2/camera_control_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.193423] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages/image_meta_msgs_ros2/msg/__init__.py\n'}
+[12.208259] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages/camera_control_msgs_ros2/camera_control_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.212103] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages/image_meta_msgs_ros2/msg/_image_meta_data.py\n'}
+[12.229249] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages/camera_control_msgs_ros2/camera_control_msgs_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.229815] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages/image_meta_msgs_ros2/image_meta_msgs_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.248187] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__python.so\n'}
+[12.248864] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages/image_meta_msgs_ros2/image_meta_msgs_ros2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.267133] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/msg/CameraControl.idl\n'}
+[12.267755] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages/image_meta_msgs_ros2/image_meta_msgs_ros2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.279991] (-) TimerEvent: {}
+[12.286785] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/msg/CameraControl.msg\n'}
+[12.287305] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__python.so\n'}
+[12.304823] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/ament_index/resource_index/package_run_dependencies/camera_control_msgs_ros2\n'}
+[12.305452] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/msg/ImageMetaData.idl\n'}
+[12.324436] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/msg/ImageMetaData.msg\n'}
+[12.324960] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/ament_index/resource_index/parent_prefix_path/camera_control_msgs_ros2\n'}
+[12.343117] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/ament_prefix_path.sh\n'}
+[12.343642] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/ament_index/resource_index/package_run_dependencies/image_meta_msgs_ros2\n'}
+[12.361816] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/ament_index/resource_index/parent_prefix_path/image_meta_msgs_ros2\n'}
+[12.362397] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/ament_prefix_path.dsv\n'}
+[12.380260] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/ament_prefix_path.sh\n'}
+[12.380757] (-) TimerEvent: {}
+[12.381737] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/path.sh\n'}
+[12.401057] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/environment/path.dsv\n'}
+[12.403362] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/ament_prefix_path.dsv\n'}
+[12.422148] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/local_setup.bash\n'}
+[12.422661] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/path.sh\n'}
+[12.440816] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/local_setup.sh\n'}
+[12.441402] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/environment/path.dsv\n'}
+[12.459540] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/local_setup.bash\n'}
+[12.460223] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/local_setup.zsh\n'}
+[12.478505] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/local_setup.dsv\n'}
+[12.479048] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/local_setup.sh\n'}
+[12.480889] (-) TimerEvent: {}
+[12.496475] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/local_setup.zsh\n'}
+[12.496973] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/package.dsv\n'}
+[12.515356] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/local_setup.dsv\n'}
+[12.515870] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/ament_index/resource_index/packages/camera_control_msgs_ros2\n'}
+[12.534140] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/package.dsv\n'}
+[12.534655] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[12.552729] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.553215] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/ament_index/resource_index/packages/image_meta_msgs_ros2\n'}
+[12.571193] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.571804] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[12.581097] (-) TimerEvent: {}
+[12.590377] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.591267] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.609970] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.610561] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.630585] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.631194] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.649354] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.649971] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.668497] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2Config.cmake\n'}
+[12.669019] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.681321] (-) TimerEvent: {}
+[12.686600] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2Config-version.cmake\n'}
+[12.687281] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.706070] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2Config.cmake\n'}
+[12.706618] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/package.xml\n'}
+[12.723995] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_generator_c.so\n'}
+[12.724607] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2Config-version.cmake\n'}
+[12.724870] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_generator_c.so" to ""\n'}
+[12.725026] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_introspection_c.so\n'}
+[12.725476] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.725745] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_c.so\n'}
+[12.726368] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_c.so" to ""\n'}
+[12.726625] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[12.727511] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.727903] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_cpp.so\n'}
+[12.728699] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/libcamera_control_msgs_ros2__rosidl_typesupport_cpp.so" to ""\n'}
+[12.743266] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/package.xml\n'}
+[12.763512] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_generator_c.so\n'}
+[12.764298] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_generator_c.so" to ""\n'}
+[12.764573] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_introspection_c.so\n'}
+[12.765922] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.766208] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_c.so\n'}
+[12.766458] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_c.so" to ""\n'}
+[12.766712] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[12.767600] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.767880] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_cpp.so\n'}
+[12.768612] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/libimage_meta_msgs_ros2__rosidl_typesupport_cpp.so" to ""\n'}
+[12.781451] (-) TimerEvent: {}
+[12.785807] (camera_control_msgs_ros2) StdoutLine: {'line': b"Compiling '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages/camera_control_msgs_ros2/__init__.py'...\n"}
+[12.797272] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_generator_cExport.cmake\n'}
+[12.797839] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_generator_cExport-relwithdebinfo.cmake\n'}
+[12.798229] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.798617] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake\n'}
+[12.799060] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_cExport.cmake\n'}
+[12.799446] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_cExport-relwithdebinfo.cmake\n'}
+[12.799900] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_generator_cppExport.cmake\n'}
+[12.800424] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.801226] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake\n'}
+[12.801694] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[12.802076] (camera_control_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake/camera_control_msgs_ros2__rosidl_typesupport_cppExport-relwithdebinfo.cmake\n'}
+[12.806899] (camera_control_msgs_ros2) CommandEnded: {'returncode': 0}
+[12.828338] (image_meta_msgs_ros2) StdoutLine: {'line': b"Compiling '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages/image_meta_msgs_ros2/__init__.py'...\n"}
+[12.839348] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_generator_cExport.cmake\n'}
+[12.840347] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_generator_cExport-relwithdebinfo.cmake\n'}
+[12.840835] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.841546] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake\n'}
+[12.842347] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_cExport.cmake\n'}
+[12.842713] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_cExport-relwithdebinfo.cmake\n'}
+[12.843042] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_generator_cppExport.cmake\n'}
+[12.843670] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.844139] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake\n'}
+[12.844423] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[12.845046] (image_meta_msgs_ros2) StdoutLine: {'line': b'-- Installing: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake/image_meta_msgs_ros2__rosidl_typesupport_cppExport-relwithdebinfo.cmake\n'}
+[12.855302] (image_meta_msgs_ros2) CommandEnded: {'returncode': 0}
+[12.883776] (-) TimerEvent: {}
+[12.985409] (-) TimerEvent: {}
+[12.987395] (camera_control_msgs_ros2) JobEnded: {'identifier': 'camera_control_msgs_ros2', 'rc': 0}
+[13.050521] (image_meta_msgs_ros2) JobEnded: {'identifier': 'image_meta_msgs_ros2', 'rc': 0}
+[13.056941] (flir_spinnaker_ros2) JobStarted: {'identifier': 'flir_spinnaker_ros2'}
+[13.082390] (flir_spinnaker_ros2) JobProgress: {'identifier': 'flir_spinnaker_ros2', 'progress': 'cmake'}
+[13.083144] (flir_spinnaker_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_ros2', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy')]), 'shell': False}
+[13.091471] (-) TimerEvent: {}
+[13.188147] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[13.191570] (-) TimerEvent: {}
+[13.278467] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[13.286372] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[13.291652] (-) TimerEvent: {}
+[13.392185] (-) TimerEvent: {}
+[13.412664] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[13.414016] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.492425] (-) TimerEvent: {}
+[13.540147] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.558197] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.558707] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.563741] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[13.592607] (-) TimerEvent: {}
+[13.693405] (-) TimerEvent: {}
+[13.704725] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[13.706556] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.793582] (-) TimerEvent: {}
+[13.854015] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.872122] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.873005] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.877551] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[13.893719] (-) TimerEvent: {}
+[13.926438] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[13.927956] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.993873] (-) TimerEvent: {}
+[14.094467] (-) TimerEvent: {}
+[14.195075] (-) TimerEvent: {}
+[14.284787] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.295252] (-) TimerEvent: {}
+[14.327257] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[14.330472] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[14.344953] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[14.395431] (-) TimerEvent: {}
+[14.428422] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.440119] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[14.495608] (-) TimerEvent: {}
+[14.579626] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[14.595732] (-) TimerEvent: {}
+[14.633079] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[14.695924] (-) TimerEvent: {}
+[14.772248] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.796040] (-) TimerEvent: {}
+[14.877489] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[14.881136] (flir_spinnaker_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.883799] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[14.896194] (-) TimerEvent: {}
+[14.996897] (-) TimerEvent: {}
+[15.023749] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.025593] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.097089] (-) TimerEvent: {}
+[15.168806] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[15.170002] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[15.197273] (-) TimerEvent: {}
+[15.282714] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[15.283256] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[15.297455] (-) TimerEvent: {}
+[15.398144] (-) TimerEvent: {}
+[15.412443] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[15.414372] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.498312] (-) TimerEvent: {}
+[15.598983] (-) TimerEvent: {}
+[15.683596] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[15.699067] (-) TimerEvent: {}
+[15.791558] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[15.799151] (-) TimerEvent: {}
+[15.899574] (-) TimerEvent: {}
+[15.991563] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)\n'}
+[15.999685] (-) TimerEvent: {}
+[16.025556] (flir_spinnaker_ros2) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[16.099836] (-) TimerEvent: {}
+[16.100371] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[16.170608] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found flir_spinnaker_common: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake)\n'}
+[16.172498] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found image_meta_msgs_ros2: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake)\n'}
+[16.199903] (-) TimerEvent: {}
+[16.235250] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found camera_control_msgs_ros2: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake)\n'}
+[16.300067] (-) TimerEvent: {}
+[16.400793] (-) TimerEvent: {}
+[16.501470] (-) TimerEvent: {}
+[16.538696] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)\n'}
+[16.541348] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[16.544086] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[16.546829] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[16.549551] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)\n'}
+[16.552204] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[16.554900] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.9.8 (/opt/ros/foxy/share/ament_cmake_clang_format/cmake)\n'}
+[16.557614] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)\n'}
+[16.580219] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.601540] (-) TimerEvent: {}
+[16.635435] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[16.639243] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2\n'}
+[16.663831] (flir_spinnaker_ros2) CommandEnded: {'returncode': 0}
+[16.665335] (flir_spinnaker_ros2) JobProgress: {'identifier': 'flir_spinnaker_ros2', 'progress': 'build'}
+[16.665853] (flir_spinnaker_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2', '--', '-j4', '-l4'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy')]), 'shell': False}
+[16.701804] (-) TimerEvent: {}
+[16.754525] (flir_spinnaker_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_driver\x1b[0m\n'}
+[16.801922] (-) TimerEvent: {}
+[16.889629] (flir_spinnaker_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/camera_driver.dir/src/camera_driver.cpp.o\x1b[0m\n'}
+[16.902100] (-) TimerEvent: {}
+[17.002778] (-) TimerEvent: {}
+[17.103468] (-) TimerEvent: {}
+[17.204176] (-) TimerEvent: {}
+[17.304888] (-) TimerEvent: {}
+[17.405575] (-) TimerEvent: {}
+[17.506281] (-) TimerEvent: {}
+[17.606973] (-) TimerEvent: {}
+[17.707669] (-) TimerEvent: {}
+[17.808347] (-) TimerEvent: {}
+[17.909069] (-) TimerEvent: {}
+[18.009792] (-) TimerEvent: {}
+[18.110495] (-) TimerEvent: {}
+[18.211210] (-) TimerEvent: {}
+[18.311920] (-) TimerEvent: {}
+[18.412643] (-) TimerEvent: {}
+[18.513368] (-) TimerEvent: {}
+[18.614096] (-) TimerEvent: {}
+[18.714828] (-) TimerEvent: {}
+[18.815558] (-) TimerEvent: {}
+[18.916307] (-) TimerEvent: {}
+[19.017009] (-) TimerEvent: {}
+[19.117732] (-) TimerEvent: {}
+[19.218440] (-) TimerEvent: {}
+[19.319175] (-) TimerEvent: {}
+[19.419916] (-) TimerEvent: {}
+[19.520699] (-) TimerEvent: {}
+[19.621424] (-) TimerEvent: {}
+[19.722179] (-) TimerEvent: {}
+[19.822905] (-) TimerEvent: {}
+[19.923615] (-) TimerEvent: {}
+[20.024340] (-) TimerEvent: {}
+[20.125037] (-) TimerEvent: {}
+[20.225733] (-) TimerEvent: {}
+[20.326439] (-) TimerEvent: {}
+[20.427123] (-) TimerEvent: {}
+[20.527838] (-) TimerEvent: {}
+[20.628597] (-) TimerEvent: {}
+[20.729281] (-) TimerEvent: {}
+[20.829988] (-) TimerEvent: {}
+[20.930680] (-) TimerEvent: {}
+[21.031385] (-) TimerEvent: {}
+[21.132070] (-) TimerEvent: {}
+[21.232803] (-) TimerEvent: {}
+[21.333496] (-) TimerEvent: {}
+[21.434216] (-) TimerEvent: {}
+[21.534913] (-) TimerEvent: {}
+[21.635566] (-) TimerEvent: {}
+[21.736246] (-) TimerEvent: {}
+[21.836933] (-) TimerEvent: {}
+[21.937609] (-) TimerEvent: {}
+[22.038292] (-) TimerEvent: {}
+[22.139000] (-) TimerEvent: {}
+[22.239706] (-) TimerEvent: {}
+[22.340432] (-) TimerEvent: {}
+[22.441138] (-) TimerEvent: {}
+[22.541880] (-) TimerEvent: {}
+[22.642604] (-) TimerEvent: {}
+[22.743291] (-) TimerEvent: {}
+[22.843999] (-) TimerEvent: {}
+[22.944739] (-) TimerEvent: {}
+[23.045462] (-) TimerEvent: {}
+[23.146165] (-) TimerEvent: {}
+[23.246867] (-) TimerEvent: {}
+[23.347597] (-) TimerEvent: {}
+[23.448346] (-) TimerEvent: {}
+[23.549038] (-) TimerEvent: {}
+[23.649761] (-) TimerEvent: {}
+[23.750441] (-) TimerEvent: {}
+[23.851136] (-) TimerEvent: {}
+[23.951854] (-) TimerEvent: {}
+[24.052586] (-) TimerEvent: {}
+[24.153289] (-) TimerEvent: {}
+[24.253972] (-) TimerEvent: {}
+[24.354659] (-) TimerEvent: {}
+[24.455374] (-) TimerEvent: {}
+[24.556096] (-) TimerEvent: {}
+[24.656828] (-) TimerEvent: {}
+[24.757538] (-) TimerEvent: {}
+[24.858249] (-) TimerEvent: {}
+[24.958990] (-) TimerEvent: {}
+[25.059694] (-) TimerEvent: {}
+[25.160536] (-) TimerEvent: {}
+[25.261258] (-) TimerEvent: {}
+[25.361965] (-) TimerEvent: {}
+[25.462662] (-) TimerEvent: {}
+[25.563360] (-) TimerEvent: {}
+[25.664039] (-) TimerEvent: {}
+[25.764732] (-) TimerEvent: {}
+[25.865436] (-) TimerEvent: {}
+[25.966129] (-) TimerEvent: {}
+[26.066819] (-) TimerEvent: {}
+[26.167516] (-) TimerEvent: {}
+[26.268225] (-) TimerEvent: {}
+[26.368914] (-) TimerEvent: {}
+[26.469651] (-) TimerEvent: {}
+[26.570381] (-) TimerEvent: {}
+[26.671087] (-) TimerEvent: {}
+[26.771794] (-) TimerEvent: {}
+[26.872516] (-) TimerEvent: {}
+[26.973219] (-) TimerEvent: {}
+[27.073876] (-) TimerEvent: {}
+[27.174547] (-) TimerEvent: {}
+[27.276055] (-) TimerEvent: {}
+[27.376765] (-) TimerEvent: {}
+[27.477457] (-) TimerEvent: {}
+[27.578166] (-) TimerEvent: {}
+[27.678864] (-) TimerEvent: {}
+[27.779553] (-) TimerEvent: {}
+[27.880256] (-) TimerEvent: {}
+[27.980941] (-) TimerEvent: {}
+[28.081625] (-) TimerEvent: {}
+[28.182290] (-) TimerEvent: {}
+[28.282966] (-) TimerEvent: {}
+[28.383652] (-) TimerEvent: {}
+[28.484359] (-) TimerEvent: {}
+[28.585046] (-) TimerEvent: {}
+[28.685742] (-) TimerEvent: {}
+[28.786434] (-) TimerEvent: {}
+[28.887131] (-) TimerEvent: {}
+[28.987850] (-) TimerEvent: {}
+[29.088545] (-) TimerEvent: {}
+[29.189233] (-) TimerEvent: {}
+[29.289947] (-) TimerEvent: {}
+[29.390652] (-) TimerEvent: {}
+[29.491346] (-) TimerEvent: {}
+[29.592051] (-) TimerEvent: {}
+[29.692788] (-) TimerEvent: {}
+[29.793505] (-) TimerEvent: {}
+[29.894238] (-) TimerEvent: {}
+[29.994967] (-) TimerEvent: {}
+[30.095678] (-) TimerEvent: {}
+[30.196430] (-) TimerEvent: {}
+[30.297159] (-) TimerEvent: {}
+[30.397864] (-) TimerEvent: {}
+[30.498563] (-) TimerEvent: {}
+[30.599262] (-) TimerEvent: {}
+[30.700016] (-) TimerEvent: {}
+[30.800742] (-) TimerEvent: {}
+[30.901431] (-) TimerEvent: {}
+[31.002129] (-) TimerEvent: {}
+[31.102824] (-) TimerEvent: {}
+[31.203512] (-) TimerEvent: {}
+[31.304237] (-) TimerEvent: {}
+[31.404940] (-) TimerEvent: {}
+[31.505645] (-) TimerEvent: {}
+[31.606343] (-) TimerEvent: {}
+[31.707037] (-) TimerEvent: {}
+[31.807721] (-) TimerEvent: {}
+[31.908432] (-) TimerEvent: {}
+[32.009125] (-) TimerEvent: {}
+[32.109812] (-) TimerEvent: {}
+[32.210500] (-) TimerEvent: {}
+[32.311209] (-) TimerEvent: {}
+[32.411914] (-) TimerEvent: {}
+[32.512670] (-) TimerEvent: {}
+[32.613373] (-) TimerEvent: {}
+[32.714053] (-) TimerEvent: {}
+[32.814753] (-) TimerEvent: {}
+[32.915469] (-) TimerEvent: {}
+[33.016160] (-) TimerEvent: {}
+[33.116894] (-) TimerEvent: {}
+[33.217592] (-) TimerEvent: {}
+[33.318298] (-) TimerEvent: {}
+[33.419025] (-) TimerEvent: {}
+[33.519734] (-) TimerEvent: {}
+[33.620424] (-) TimerEvent: {}
+[33.721119] (-) TimerEvent: {}
+[33.821799] (-) TimerEvent: {}
+[33.922508] (-) TimerEvent: {}
+[34.023244] (-) TimerEvent: {}
+[34.123955] (-) TimerEvent: {}
+[34.224688] (-) TimerEvent: {}
+[34.325359] (-) TimerEvent: {}
+[34.426044] (-) TimerEvent: {}
+[34.526755] (-) TimerEvent: {}
+[34.627447] (-) TimerEvent: {}
+[34.728155] (-) TimerEvent: {}
+[34.828895] (-) TimerEvent: {}
+[34.929646] (-) TimerEvent: {}
+[35.030359] (-) TimerEvent: {}
+[35.131062] (-) TimerEvent: {}
+[35.231763] (-) TimerEvent: {}
+[35.332516] (-) TimerEvent: {}
+[35.433256] (-) TimerEvent: {}
+[35.533960] (-) TimerEvent: {}
+[35.634691] (-) TimerEvent: {}
+[35.735413] (-) TimerEvent: {}
+[35.836157] (-) TimerEvent: {}
+[35.936932] (-) TimerEvent: {}
+[36.037633] (-) TimerEvent: {}
+[36.138337] (-) TimerEvent: {}
+[36.239034] (-) TimerEvent: {}
+[36.339716] (-) TimerEvent: {}
+[36.440461] (-) TimerEvent: {}
+[36.541179] (-) TimerEvent: {}
+[36.641871] (-) TimerEvent: {}
+[36.742578] (-) TimerEvent: {}
+[36.843284] (-) TimerEvent: {}
+[36.943988] (-) TimerEvent: {}
+[37.044734] (-) TimerEvent: {}
+[37.145501] (-) TimerEvent: {}
+[37.246251] (-) TimerEvent: {}
+[37.346988] (-) TimerEvent: {}
+[37.448576] (-) TimerEvent: {}
+[37.549481] (-) TimerEvent: {}
+[37.650242] (-) TimerEvent: {}
+[37.750989] (-) TimerEvent: {}
+[37.851697] (-) TimerEvent: {}
+[37.952393] (-) TimerEvent: {}
+[38.053149] (-) TimerEvent: {}
+[38.153864] (-) TimerEvent: {}
+[38.254624] (-) TimerEvent: {}
+[38.355342] (-) TimerEvent: {}
+[38.456135] (-) TimerEvent: {}
+[38.556861] (-) TimerEvent: {}
+[38.657544] (-) TimerEvent: {}
+[38.758215] (-) TimerEvent: {}
+[38.858884] (-) TimerEvent: {}
+[38.959581] (-) TimerEvent: {}
+[39.060290] (-) TimerEvent: {}
+[39.161014] (-) TimerEvent: {}
+[39.261734] (-) TimerEvent: {}
+[39.362441] (-) TimerEvent: {}
+[39.463153] (-) TimerEvent: {}
+[39.563890] (-) TimerEvent: {}
+[39.664598] (-) TimerEvent: {}
+[39.765422] (-) TimerEvent: {}
+[39.866357] (-) TimerEvent: {}
+[39.967256] (-) TimerEvent: {}
+[40.068085] (-) TimerEvent: {}
+[40.168984] (-) TimerEvent: {}
+[40.269748] (-) TimerEvent: {}
+[40.370464] (-) TimerEvent: {}
+[40.471184] (-) TimerEvent: {}
+[40.571914] (-) TimerEvent: {}
+[40.672696] (-) TimerEvent: {}
+[40.773419] (-) TimerEvent: {}
+[40.874157] (-) TimerEvent: {}
+[40.974868] (-) TimerEvent: {}
+[41.075601] (-) TimerEvent: {}
+[41.176352] (-) TimerEvent: {}
+[41.277073] (-) TimerEvent: {}
+[41.377867] (-) TimerEvent: {}
+[41.478580] (-) TimerEvent: {}
+[41.579309] (-) TimerEvent: {}
+[41.680024] (-) TimerEvent: {}
+[41.780746] (-) TimerEvent: {}
+[41.881483] (-) TimerEvent: {}
+[41.982217] (-) TimerEvent: {}
+[42.082941] (-) TimerEvent: {}
+[42.183709] (-) TimerEvent: {}
+[42.284915] (-) TimerEvent: {}
+[42.385737] (-) TimerEvent: {}
+[42.486624] (-) TimerEvent: {}
+[42.587371] (-) TimerEvent: {}
+[42.688056] (-) TimerEvent: {}
+[42.788830] (-) TimerEvent: {}
+[42.889570] (-) TimerEvent: {}
+[42.990312] (-) TimerEvent: {}
+[43.091044] (-) TimerEvent: {}
+[43.191733] (-) TimerEvent: {}
+[43.292469] (-) TimerEvent: {}
+[43.393209] (-) TimerEvent: {}
+[43.493998] (-) TimerEvent: {}
+[43.594701] (-) TimerEvent: {}
+[43.695399] (-) TimerEvent: {}
+[43.796102] (-) TimerEvent: {}
+[43.896816] (-) TimerEvent: {}
+[43.997526] (-) TimerEvent: {}
+[44.098226] (-) TimerEvent: {}
+[44.198959] (-) TimerEvent: {}
+[44.299659] (-) TimerEvent: {}
+[44.400375] (-) TimerEvent: {}
+[44.501117] (-) TimerEvent: {}
+[44.601812] (-) TimerEvent: {}
+[44.702529] (-) TimerEvent: {}
+[44.803228] (-) TimerEvent: {}
+[44.903909] (-) TimerEvent: {}
+[45.004667] (-) TimerEvent: {}
+[45.105411] (-) TimerEvent: {}
+[45.206136] (-) TimerEvent: {}
+[45.306880] (-) TimerEvent: {}
+[45.407575] (-) TimerEvent: {}
+[45.508254] (-) TimerEvent: {}
+[45.608920] (-) TimerEvent: {}
+[45.709650] (-) TimerEvent: {}
+[45.810383] (-) TimerEvent: {}
+[45.911090] (-) TimerEvent: {}
+[46.011792] (-) TimerEvent: {}
+[46.112500] (-) TimerEvent: {}
+[46.213201] (-) TimerEvent: {}
+[46.313875] (-) TimerEvent: {}
+[46.414558] (-) TimerEvent: {}
+[46.515251] (-) TimerEvent: {}
+[46.615934] (-) TimerEvent: {}
+[46.716640] (-) TimerEvent: {}
+[46.817319] (-) TimerEvent: {}
+[46.917979] (-) TimerEvent: {}
+[47.018695] (-) TimerEvent: {}
+[47.119367] (-) TimerEvent: {}
+[47.220039] (-) TimerEvent: {}
+[47.320757] (-) TimerEvent: {}
+[47.421459] (-) TimerEvent: {}
+[47.522183] (-) TimerEvent: {}
+[47.622898] (-) TimerEvent: {}
+[47.723580] (-) TimerEvent: {}
+[47.824303] (-) TimerEvent: {}
+[47.924998] (-) TimerEvent: {}
+[48.025695] (-) TimerEvent: {}
+[48.126392] (-) TimerEvent: {}
+[48.227102] (-) TimerEvent: {}
+[48.327803] (-) TimerEvent: {}
+[48.428575] (-) TimerEvent: {}
+[48.529294] (-) TimerEvent: {}
+[48.629994] (-) TimerEvent: {}
+[48.730674] (-) TimerEvent: {}
+[48.831357] (-) TimerEvent: {}
+[48.932030] (-) TimerEvent: {}
+[49.032738] (-) TimerEvent: {}
+[49.133413] (-) TimerEvent: {}
+[49.234079] (-) TimerEvent: {}
+[49.334810] (-) TimerEvent: {}
+[49.435593] (-) TimerEvent: {}
+[49.536347] (-) TimerEvent: {}
+[49.637054] (-) TimerEvent: {}
+[49.737747] (-) TimerEvent: {}
+[49.838466] (-) TimerEvent: {}
+[49.900405] (flir_spinnaker_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_driver.so\x1b[0m\n'}
+[49.938649] (-) TimerEvent: {}
+[50.039456] (-) TimerEvent: {}
+[50.140525] (-) TimerEvent: {}
+[50.241221] (-) TimerEvent: {}
+[50.341948] (-) TimerEvent: {}
+[50.396394] (flir_spinnaker_ros2) StdoutLine: {'line': b'[ 50%] Built target camera_driver\n'}
+[50.415648] (flir_spinnaker_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_driver_node\x1b[0m\n'}
+[50.442166] (-) TimerEvent: {}
+[50.493500] (flir_spinnaker_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/camera_driver_node.dir/src/camera_driver_node.cpp.o\x1b[0m\n'}
+[50.542366] (-) TimerEvent: {}
+[50.643067] (-) TimerEvent: {}
+[50.743766] (-) TimerEvent: {}
+[50.844489] (-) TimerEvent: {}
+[50.945217] (-) TimerEvent: {}
+[51.045961] (-) TimerEvent: {}
+[51.146676] (-) TimerEvent: {}
+[51.247367] (-) TimerEvent: {}
+[51.348087] (-) TimerEvent: {}
+[51.448812] (-) TimerEvent: {}
+[51.549532] (-) TimerEvent: {}
+[51.650247] (-) TimerEvent: {}
+[51.750966] (-) TimerEvent: {}
+[51.851682] (-) TimerEvent: {}
+[51.952426] (-) TimerEvent: {}
+[52.053144] (-) TimerEvent: {}
+[52.153873] (-) TimerEvent: {}
+[52.254623] (-) TimerEvent: {}
+[52.355331] (-) TimerEvent: {}
+[52.456062] (-) TimerEvent: {}
+[52.556825] (-) TimerEvent: {}
+[52.657540] (-) TimerEvent: {}
+[52.758254] (-) TimerEvent: {}
+[52.864758] (-) TimerEvent: {}
+[52.966084] (-) TimerEvent: {}
+[53.066786] (-) TimerEvent: {}
+[53.167633] (-) TimerEvent: {}
+[53.268360] (-) TimerEvent: {}
+[53.369074] (-) TimerEvent: {}
+[53.469774] (-) TimerEvent: {}
+[53.570480] (-) TimerEvent: {}
+[53.671204] (-) TimerEvent: {}
+[53.772236] (-) TimerEvent: {}
+[53.872901] (-) TimerEvent: {}
+[53.973622] (-) TimerEvent: {}
+[54.074343] (-) TimerEvent: {}
+[54.175269] (-) TimerEvent: {}
+[54.276321] (-) TimerEvent: {}
+[54.377041] (-) TimerEvent: {}
+[54.477764] (-) TimerEvent: {}
+[54.578862] (-) TimerEvent: {}
+[54.679654] (-) TimerEvent: {}
+[54.780354] (-) TimerEvent: {}
+[54.881065] (-) TimerEvent: {}
+[54.981785] (-) TimerEvent: {}
+[55.082493] (-) TimerEvent: {}
+[55.183215] (-) TimerEvent: {}
+[55.283945] (-) TimerEvent: {}
+[55.384698] (-) TimerEvent: {}
+[55.485414] (-) TimerEvent: {}
+[55.586143] (-) TimerEvent: {}
+[55.687804] (-) TimerEvent: {}
+[55.788637] (-) TimerEvent: {}
+[55.889322] (-) TimerEvent: {}
+[55.985902] (flir_spinnaker_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_driver_node\x1b[0m\n'}
+[55.989402] (-) TimerEvent: {}
+[56.089959] (-) TimerEvent: {}
+[56.190668] (-) TimerEvent: {}
+[56.291368] (-) TimerEvent: {}
+[56.318102] (flir_spinnaker_ros2) StdoutLine: {'line': b'[100%] Built target camera_driver_node\n'}
+[56.341644] (flir_spinnaker_ros2) CommandEnded: {'returncode': 0}
+[56.389305] (flir_spinnaker_ros2) JobProgress: {'identifier': 'flir_spinnaker_ros2', 'progress': 'install'}
+[56.390070] (flir_spinnaker_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2'], 'cwd': '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'johnsmith'), ('SSH_AGENT_PID', '2400'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/johnsmith'), ('OLDPWD', '/home/johnsmith/Desktop/underwater'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1659'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johnsmith'), ('JOURNAL_STREAM', '7:59957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'johnsmith'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WaterJetson:@/tmp/.ICE-unix/2439,unix/WaterJetson:/tmp/.ICE-unix/2439'), ('INVOCATION_ID', '21bf735df6f04da8af1de97524ef0f6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0928b29_c520_4519_b733_74b6bdbcf515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common:/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2:/opt/ros/foxy')]), 'shell': False}
+[56.395986] (-) TimerEvent: {}
+[56.412790] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[56.413776] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[56.414791] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/lib/flir_spinnaker_ros2//camera_driver_node\n'}
+[56.433332] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/lib/libcamera_driver.so\n'}
+[56.452371] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/blackfly_s.cfg\n'}
+[56.471120] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/blackfly_s_gige.cfg\n'}
+[56.489192] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/chameleon.cfg\n'}
+[56.496124] (-) TimerEvent: {}
+[56.507406] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/example.yaml\n'}
+[56.525117] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/grasshopper.cfg\n'}
+[56.543688] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/blackfly_s.launch.py\n'}
+[56.561560] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/blackfly_s_gige.launch.py\n'}
+[56.579306] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/chameleon.launch.py\n'}
+[56.596416] (-) TimerEvent: {}
+[56.607337] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/grasshopper.launch.py\n'}
+[56.627606] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/grasshopper_with_exp_control.launch.py\n'}
+[56.648893] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/stereo_synced.launch.py\n'}
+[56.670780] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/package_run_dependencies/flir_spinnaker_ros2\n'}
+[56.694953] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/parent_prefix_path/flir_spinnaker_ros2\n'}
+[56.696484] (-) TimerEvent: {}
+[56.716539] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/ament_prefix_path.sh\n'}
+[56.740486] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/ament_prefix_path.dsv\n'}
+[56.762920] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/path.sh\n'}
+[56.781990] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/path.dsv\n'}
+[56.796690] (-) TimerEvent: {}
+[56.802421] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.bash\n'}
+[56.827130] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.sh\n'}
+[56.847156] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.zsh\n'}
+[56.866634] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.dsv\n'}
+[56.885456] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/package.dsv\n'}
+[56.896868] (-) TimerEvent: {}
+[56.904944] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/packages/flir_spinnaker_ros2\n'}
+[56.925255] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/rclcpp_components/flir_spinnaker_ros2\n'}
+[56.946859] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/cmake/flir_spinnaker_ros2Config.cmake\n'}
+[56.965579] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/cmake/flir_spinnaker_ros2Config-version.cmake\n'}
+[56.985704] (flir_spinnaker_ros2) StdoutLine: {'line': b'-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/package.xml\n'}
+[56.997109] (-) TimerEvent: {}
+[57.011022] (flir_spinnaker_ros2) CommandEnded: {'returncode': 0}
+[57.097255] (-) TimerEvent: {}
+[57.112983] (flir_spinnaker_ros2) JobEnded: {'identifier': 'flir_spinnaker_ros2', 'rc': 0}
+[57.114666] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+{
+  "package_name": "image_meta_msgs_ros2",
+  "non_idl_tuples": [
+    "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/image_meta_msgs_ros2:msg/ImageMetaData.msg"
+  ]
+}

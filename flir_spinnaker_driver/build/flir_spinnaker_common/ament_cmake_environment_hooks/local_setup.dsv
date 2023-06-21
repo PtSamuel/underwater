@@ -1,0 +1,2 @@
+source;share/flir_spinnaker_common/environment/ament_prefix_path.sh
+source;share/flir_spinnaker_common/environment/path.sh

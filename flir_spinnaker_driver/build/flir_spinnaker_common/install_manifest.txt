@@ -1,0 +1,3 @@
+/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/lib/libflir_spinnaker_common.so
+/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/export_flir_spinnaker_commonExport.cmake
+/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake/export_flir_spinnaker_commonExport-relwithdebinfo.cmake

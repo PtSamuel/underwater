@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found flir_spinnaker_common: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common/share/flir_spinnaker_common/cmake)
+-- Found image_meta_msgs_ros2: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/image_meta_msgs_ros2/share/image_meta_msgs_ros2/cmake)
+-- Found camera_control_msgs_ros2: 1.0.0 (/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/camera_control_msgs_ros2/share/camera_control_msgs_ros2/cmake)
+-- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_clang_format: 0.9.8 (/opt/ros/foxy/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2
+[35m[1mScanning dependencies of target camera_driver[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/camera_driver.dir/src/camera_driver.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libcamera_driver.so[0m
+[ 50%] Built target camera_driver
+[35m[1mScanning dependencies of target camera_driver_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/camera_driver_node.dir/src/camera_driver_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable camera_driver_node[0m
+[100%] Built target camera_driver_node
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/lib/flir_spinnaker_ros2//camera_driver_node
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/lib/libcamera_driver.so
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/blackfly_s.cfg
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/blackfly_s_gige.cfg
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/chameleon.cfg
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/example.yaml
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//config/grasshopper.cfg
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/blackfly_s.launch.py
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/blackfly_s_gige.launch.py
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/chameleon.launch.py
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/grasshopper.launch.py
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/grasshopper_with_exp_control.launch.py
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2//launch/stereo_synced.launch.py
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/package_run_dependencies/flir_spinnaker_ros2
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/parent_prefix_path/flir_spinnaker_ros2
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/path.sh
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/environment/path.dsv
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.bash
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.sh
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.zsh
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/local_setup.dsv
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/package.dsv
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/packages/flir_spinnaker_ros2
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/ament_index/resource_index/rclcpp_components/flir_spinnaker_ros2
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/cmake/flir_spinnaker_ros2Config.cmake
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/cmake/flir_spinnaker_ros2Config-version.cmake
+-- Symlinking: /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_ros2/share/flir_spinnaker_ros2/package.xml

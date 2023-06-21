@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common",
+  "command": "/usr/bin/c++  -DROS_PACKAGE_NAME=\\\"flir_spinnaker_common\\\" -Dflir_spinnaker_common_EXPORTS -I/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/include -isystem /opt/spinnaker/include  -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/flir_spinnaker_common.dir/src/driver.cpp.o -c /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/driver.cpp",
+  "file": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/driver.cpp"
+},
+{
+  "directory": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common",
+  "command": "/usr/bin/c++  -DROS_PACKAGE_NAME=\\\"flir_spinnaker_common\\\" -Dflir_spinnaker_common_EXPORTS -I/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/include -isystem /opt/spinnaker/include  -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/flir_spinnaker_common.dir/src/driver_impl.cpp.o -c /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/driver_impl.cpp",
+  "file": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/driver_impl.cpp"
+},
+{
+  "directory": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common",
+  "command": "/usr/bin/c++  -DROS_PACKAGE_NAME=\\\"flir_spinnaker_common\\\" -Dflir_spinnaker_common_EXPORTS -I/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/include -isystem /opt/spinnaker/include  -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/flir_spinnaker_common.dir/src/image.cpp.o -c /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/image.cpp",
+  "file": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/image.cpp"
+},
+{
+  "directory": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common",
+  "command": "/usr/bin/c++  -DROS_PACKAGE_NAME=\\\"flir_spinnaker_common\\\" -Dflir_spinnaker_common_EXPORTS -I/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/include -isystem /opt/spinnaker/include  -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/flir_spinnaker_common.dir/src/pixel_format.cpp.o -c /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/pixel_format.cpp",
+  "file": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/pixel_format.cpp"
+},
+{
+  "directory": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common",
+  "command": "/usr/bin/c++  -DROS_PACKAGE_NAME=\\\"flir_spinnaker_common\\\" -Dflir_spinnaker_common_EXPORTS -I/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/include -isystem /opt/spinnaker/include  -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=c++14 -o CMakeFiles/flir_spinnaker_common.dir/src/genicam_utils.cpp.o -c /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/genicam_utils.cpp",
+  "file": "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common/src/genicam_utils.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/camera_control_msgs_ros2/rosidl_generator_c/camera_control_msgs_ros2/msg/detail/camera_control__type_support.h

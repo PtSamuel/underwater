@@ -1,0 +1,41 @@
+[0.053s] Invoking command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common
+[0.242s] -- The CXX compiler identification is GNU 9.4.0
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.453s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.627s] -- Detecting CXX compile features
+[0.629s] -- Detecting CXX compile features - done
+[0.634s] -- Found SPINNAKER: /opt/spinnaker/include  
+[0.641s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.695s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.695s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.088s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.137s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.142s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.161s] -- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+[1.165s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[1.169s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[1.173s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[1.176s] -- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[1.180s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[1.201s] CMake Error at CMakeLists.txt:69 (find_package):
+[1.202s]   By not providing "Findament_cmake_clang_format.cmake" in CMAKE_MODULE_PATH
+[1.202s]   this project has asked CMake to find a package configuration file provided
+[1.202s]   by "ament_cmake_clang_format", but CMake did not find one.
+[1.202s] 
+[1.202s]   Could not find a package configuration file provided by
+[1.202s]   "ament_cmake_clang_format" with any of the following names:
+[1.203s] 
+[1.203s]     ament_cmake_clang_formatConfig.cmake
+[1.203s]     ament_cmake_clang_format-config.cmake
+[1.203s] 
+[1.203s]   Add the installation prefix of "ament_cmake_clang_format" to
+[1.203s]   CMAKE_PREFIX_PATH or set "ament_cmake_clang_format_DIR" to a directory
+[1.204s]   containing one of the above files.  If "ament_cmake_clang_format" provides
+[1.204s]   a separate development package or SDK, be sure it has been installed.
+[1.204s] 
+[1.204s] 
+[1.204s] -- Configuring incomplete, errors occurred!
+[1.205s] See also "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common/CMakeFiles/CMakeOutput.log".
+[1.220s] Invoked command in '/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_common' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johnsmith/Desktop/underwater/flir_spinnaker_driver/src/flir_spinnaker_common -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/install/flir_spinnaker_common

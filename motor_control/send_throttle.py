@@ -32,7 +32,7 @@ def map(x):
     return x / 8
 
 def send_throttle(ser, t):
-    command = f"$LT {t}\r"
+    command = f"$LT {t[0]} {t[1]} {t[2]} {t[3]} {t[4]} {t[5]}\r"
     ser.write(command.encode())
 
 def protection(t):
@@ -51,21 +51,21 @@ def main():
     
     args = sys.argv
     throttle = float(0 if len(args) == 1 else args[1])
-    send_throttle(ser, protection(throttle))
+    send_throttle(ser, [protection(throttle) for _ in range(6)])
 
     while True:
         try:
-            read = input("Enter throttle in [-1.0, 1.0]: ")
-            throttle = float(read)
-            throttle = protection(throttle)
-            send_throttle(ser, throttle)
+            read = input("Enter throttles, each in [-1.0, 1.0]: ")
+            inputs = read.split(' ')
+            throttles = [protection(float(inputs[i])) for i in range(6)]
+            send_throttle(ser, throttles)
         except KeyboardInterrupt:
             print("Received", KeyboardInterrupt)
             print("Zeroing throttle")
-            send_throttle(ser, 0)
+            send_throttle(ser, [0, 0, 0, 0, 0, 0])
             break
         except Exception as e:
-            print("Invalid throttle:", e)
+            print("Invalid input:", e)
 
 if __name__ == "__main__":
     main()

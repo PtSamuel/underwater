@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/johnsmith/Desktop/underwater/flir_spinnaker_driver/build/flir_spinnaker_ros2/camera_driver_node" "TARGETS" "camera_driver_node" "DESTINATION" "lib/flir_spinnaker_ros2/")
