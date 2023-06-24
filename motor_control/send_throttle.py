@@ -6,6 +6,7 @@ import sys
 serial_port = "/dev/serial/by-id/"
 password = "123456"
 safe_throttle_max = 0.5
+safety_mode = False
 
 def open_port():	
     if os.path.isdir(serial_port):
@@ -36,10 +37,15 @@ def send_throttle(ser, t):
     ser.write(command.encode())
 
 def protection(t):
+    if t > 1.0 or t < -1.0:
+        print("t must be in [-1.0, 1.0]")
+        return
+    if not safety_mode:
+        return t
     if abs(t) > safe_throttle_max:
         print(f"Throttle clipped to [{-safe_throttle_max}, {safe_throttle_max}]")
         return safe_throttle_max * (1 if t > 0 else -1)
-    return t
+    else: return t
 
 def main():
 
@@ -48,6 +54,8 @@ def main():
     if ser == None:
         print("Failed to open port:", serial_port)
         return
+
+    print(ser.readlines())
     
     args = sys.argv
     throttle = float(0 if len(args) == 1 else args[1])
