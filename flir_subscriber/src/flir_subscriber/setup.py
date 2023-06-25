@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'flir_subscriber = flir_subscriber.flir_subscriber_fps_test:main',
+            'flir_subscriber_echo = flir_subscriber.flir_subscriber_2:main',
         ],
     },
 )

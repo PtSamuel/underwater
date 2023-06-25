@@ -1,0 +1,25 @@
+[1.461s] Invoking command in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber': PYTHONPATH=/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_subscriber build --build-base /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build install --record /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log --install-scripts $base/lib/joy_subscriber --single-version-externally-managed
+[1.817s] running egg_info
+[1.818s] writing ../../build/joy_subscriber/joy_subscriber.egg-info/PKG-INFO
+[1.818s] writing dependency_links to ../../build/joy_subscriber/joy_subscriber.egg-info/dependency_links.txt
+[1.819s] writing entry points to ../../build/joy_subscriber/joy_subscriber.egg-info/entry_points.txt
+[1.819s] writing requirements to ../../build/joy_subscriber/joy_subscriber.egg-info/requires.txt
+[1.820s] writing top-level names to ../../build/joy_subscriber/joy_subscriber.egg-info/top_level.txt
+[1.870s] reading manifest file '../../build/joy_subscriber/joy_subscriber.egg-info/SOURCES.txt'
+[1.871s] writing manifest file '../../build/joy_subscriber/joy_subscriber.egg-info/SOURCES.txt'
+[1.872s] running build
+[1.872s] running build_py
+[1.872s] copying joy_subscriber/motor_controller_node.py -> /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build/lib/joy_subscriber
+[1.873s] running install
+[1.874s] running install_lib
+[1.875s] copying /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build/lib/joy_subscriber/motor_controller_node.py -> /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber
+[1.876s] byte-compiling /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber/motor_controller_node.py to motor_controller_node.cpython-38.pyc
+[1.879s] running install_data
+[1.880s] running install_egg_info
+[1.882s] removing '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[1.883s] Copying ../../build/joy_subscriber/joy_subscriber.egg-info to /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber-0.0.0-py3.8.egg-info
+[1.884s] running install_scripts
+[1.914s] Installing joy_subscriber_node script to /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/joy_subscriber
+[1.914s] Installing motor_controller_node script to /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/joy_subscriber
+[1.915s] writing list of installed files to '/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log'
+[2.031s] Invoked command in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber' returned '0': PYTHONPATH=/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_subscriber build --build-base /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build install --record /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log --install-scripts $base/lib/joy_subscriber --single-version-externally-managed

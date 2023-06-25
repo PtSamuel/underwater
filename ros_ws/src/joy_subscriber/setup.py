@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "joy_subscriber_node = joy_subscriber.joy_subscriber_node:main",
+            "motor_controller_node = joy_subscriber.motor_controller_node:main",
         ],
     },
 )

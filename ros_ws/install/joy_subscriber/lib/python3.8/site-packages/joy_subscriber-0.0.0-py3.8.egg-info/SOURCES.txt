@@ -10,6 +10,7 @@ setup.py
 ../../build/joy_subscriber/joy_subscriber.egg-info/zip-safe
 joy_subscriber/__init__.py
 joy_subscriber/joy_subscriber_node.py
+joy_subscriber/motor_controller_node.py
 resource/joy_subscriber
 test/test_copyright.py
 test/test_flake8.py

@@ -6,7 +6,7 @@ import sys
 serial_port = "/dev/serial/by-id/"
 password = "123456"
 safe_throttle_max = 0.5
-safety_mode = False
+safety_mode = True
 
 def open_port():	
     if os.path.isdir(serial_port):
