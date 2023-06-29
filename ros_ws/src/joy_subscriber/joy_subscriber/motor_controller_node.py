@@ -42,13 +42,15 @@ class MotorController(Node):
                     self.ser = None
     
     def map(self, x):
-        return x / 4
+        return x / 3
 
     def actuate_forward(self, forward):
+        
         mapped_throttle = self.map(forward)
-        command = f"$LT {mapped_throttle:.2f} {mapped_throttle:.2f} 0 0 {-mapped_throttle:.2f} {-mapped_throttle:.2f}\r"
-        print(command)
-        self.ser.write(command.encode())
+        
+        return [mapped_throttle, mapped_throttle, 0, 0, -mapped_throttle, -mapped_throttle]
+        # print(command)
+        # self.ser.write(command.encode())
 
     def actuate_lateral(self, turn):
         mapped_throttle = self.map(turn)
@@ -57,10 +59,14 @@ class MotorController(Node):
         self.ser.write(command.encode())
 
     def actuate_turn(self, turn):
+        
         mapped_throttle = self.map(turn)
-        command = f"$LT {-mapped_throttle:.2f} {mapped_throttle:.2f} 0 0 {mapped_throttle:.2f} {-mapped_throttle:.2f}\r"
-        print(command)
-        self.ser.write(command.encode())
+        
+        return [-mapped_throttle, mapped_throttle, 0, 0, mapped_throttle, -mapped_throttle]
+        # command = f"$LT {mapped_throttle:.2f} {mapped_throttle:.2f} 0 0 {-mapped_throttle:.2f} {-mapped_throttle:.2f}\r"
+        # command = f"$LT {-mapped_throttle:.2f} {mapped_throttle:.2f} 0 0 {mapped_throttle:.2f} {-mapped_throttle:.2f}\r"
+        # print(command)
+        # self.ser.write(command.encode())
 
     def listener_callback(self, message):
         # self.get_logger().info(f"Receiving: {message.axes}, {message.buttons}")
@@ -68,14 +74,18 @@ class MotorController(Node):
             forward = -float(message.axes[1])
             turn = float(message.axes[0])
             rise = float(message.axes[3])
-            print(f"forward: {forward:.02f}, turn: {turn:.02f}, rise: {rise:.02f}, ")
+            # print(f"forward: {forward:.02f}, turn: {turn:.02f}, rise: {rise:.02f}, ")
 
-            # self.actuate_forward(forward)
+            T_forward = self.actuate_forward(forward)
             # self.actuate_lateral(turn)
-            self.actuate_turn(turn)
+            T_turn = self.actuate_turn(turn)
+            print(T_forward, T_turn)
+            T_total = [x + y for x, y in zip(T_forward, T_turn)]
 
-            # self.ser.write(command.encode())
-            # self.get_logger().info(f"Sending: {command}")
+            command = f"$LT {T_total[0]:.02f} {T_total[1]:.02f} 0 0 {T_total[4]:.02f} {T_total[5]:.02f}\r"
+
+            self.ser.write(command.encode())
+            self.get_logger().info(f"Sending: {command}")
      
 def main(args=None):
     rclpy.init(args=args)
