@@ -1,0 +1,5 @@
+  File "/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber/motor_controller_node.py", line 68
+    return [0, 0, mapped_dive, mapped_dive, 0 0]
+                                              ^
+SyntaxError: invalid syntax
+

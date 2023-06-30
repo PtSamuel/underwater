@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000540] (-) JobUnselected: {'identifier': 'imu_publisher'}
+[0.000710] (joy_subscriber) JobQueued: {'identifier': 'joy_subscriber', 'dependencies': OrderedDict()}
+[0.001057] (joy_subscriber) JobStarted: {'identifier': 'joy_subscriber'}
+[0.099664] (-) TimerEvent: {}
+[0.200496] (-) TimerEvent: {}
+[0.300940] (-) TimerEvent: {}
+[0.401677] (-) TimerEvent: {}
+[0.503057] (-) TimerEvent: {}
+[0.603890] (-) TimerEvent: {}
+[0.704472] (-) TimerEvent: {}
+[0.805048] (-) TimerEvent: {}
+[0.905788] (-) TimerEvent: {}
+[1.006494] (-) TimerEvent: {}
+[1.021310] (joy_subscriber) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/joy_subscriber', 'build', '--build-base', '/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build', 'install', '--record', '/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log', '--install-scripts', '$base/lib/joy_subscriber', '--single-version-externally-managed'], 'cwd': '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'johnsmith', 'SSH_CLIENT': '169.254.1.171 62339 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/johnsmith', 'OLDPWD': '/home/johnsmith/Desktop/underwater', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/johnsmith/Desktop/underwater/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'johnsmith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '16', 'FLIR_GENTL64_CTI': '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/johnsmith/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-iT3lQ6e2T9/agent.5189', 'AMENT_PREFIX_PATH': '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber:/home/johnsmith/Desktop/underwater/ros_ws/install/imu_publisher:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber', 'SSH_CONNECTION': '169.254.1.171 62339 169.254.1.172 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:/home/johnsmith/Desktop/underwater/ros_ws/install/imu_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'GENICAM_GENTL64_PATH': '/opt/spinnaker/lib/flir-gentl'}, 'shell': False}
+[1.106719] (-) TimerEvent: {}
+[1.207710] (-) TimerEvent: {}
+[1.308391] (-) TimerEvent: {}
+[1.335602] (joy_subscriber) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.336256] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2859, in get_entry_map\n'}
+[1.336387] (joy_subscriber) StderrLine: {'line': b'    ep_map = self._ep_map\n'}
+[1.337109] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2817, in __getattr__\n'}
+[1.337360] (joy_subscriber) StderrLine: {'line': b'    raise AttributeError(attr)\n'}
+[1.337531] (joy_subscriber) StderrLine: {'line': b'AttributeError: _ep_map\n'}
+[1.337688] (joy_subscriber) StderrLine: {'line': b'\n'}
+[1.337836] (joy_subscriber) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[1.338039] (joy_subscriber) StderrLine: {'line': b'\n'}
+[1.338190] (joy_subscriber) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.338339] (joy_subscriber) StderrLine: {'line': b'  File "setup.py", line 5, in <module>\n'}
+[1.338535] (joy_subscriber) StderrLine: {'line': b'    setup(\n'}
+[1.338684] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 143, in setup\n'}
+[1.338831] (joy_subscriber) StderrLine: {'line': b'    _install_setup_requires(attrs)\n'}
+[1.339103] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 131, in _install_setup_requires\n'}
+[1.339348] (joy_subscriber) StderrLine: {'line': b'    dist = distutils.core.Distribution(dict(\n'}
+[1.339643] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 445, in __init__\n'}
+[1.339940] (joy_subscriber) StderrLine: {'line': b"    for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):\n"}
+[1.340235] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 657, in <genexpr>\n'}
+[1.340563] (joy_subscriber) StderrLine: {'line': b'    for entry in dist.get_entry_map(group).values()\n'}
+[1.340791] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2861, in get_entry_map\n'}
+[1.341010] (joy_subscriber) StderrLine: {'line': b'    ep_map = self._ep_map = EntryPoint.parse_map(\n'}
+[1.341227] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2529, in parse_map\n'}
+[1.341444] (joy_subscriber) StderrLine: {'line': b'    for group, lines in data:\n'}
+[1.341657] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3201, in split_sections\n'}
+[1.341867] (joy_subscriber) StderrLine: {'line': b'    for line in yield_lines(s):\n'}
+[1.342076] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2389, in yield_lines\n'}
+[1.342283] (joy_subscriber) StderrLine: {'line': b'    for ss in strs:\n'}
+[1.342488] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2769, in _get_metadata\n'}
+[1.342691] (joy_subscriber) StderrLine: {'line': b'    for line in self.get_metadata_lines(name):\n'}
+[1.342893] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1433, in get_metadata_lines\n'}
+[1.343175] (joy_subscriber) StderrLine: {'line': b'    return yield_lines(self.get_metadata(name))\n'}
+[1.343391] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1421, in get_metadata\n'}
+[1.343600] (joy_subscriber) StderrLine: {'line': b'    value = self._get(path)\n'}
+[1.343808] (joy_subscriber) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1617, in _get\n'}
+[1.344016] (joy_subscriber) StderrLine: {'line': b"    with open(path, 'rb') as stream:\n"}
+[1.344224] (joy_subscriber) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[1.372477] (joy_subscriber) CommandEnded: {'returncode': -2}
+[1.372955] (joy_subscriber) JobEnded: {'identifier': 'joy_subscriber', 'rc': 'SIGINT'}
+[1.383687] (-) EventReactorShutdown: {}

@@ -1,0 +1,39 @@
+[1.023s] Invoking command in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber': PYTHONPATH=/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_subscriber build --build-base /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build install --record /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log --install-scripts $base/lib/joy_subscriber --single-version-externally-managed
+[1.335s] Traceback (most recent call last):
+[1.335s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2859, in get_entry_map
+[1.336s]     ep_map = self._ep_map
+[1.336s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2817, in __getattr__
+[1.336s]     raise AttributeError(attr)
+[1.336s] AttributeError: _ep_map
+[1.337s] 
+[1.337s] During handling of the above exception, another exception occurred:
+[1.337s] 
+[1.337s] Traceback (most recent call last):
+[1.337s]   File "setup.py", line 5, in <module>
+[1.337s]     setup(
+[1.338s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 143, in setup
+[1.338s]     _install_setup_requires(attrs)
+[1.338s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 131, in _install_setup_requires
+[1.338s]     dist = distutils.core.Distribution(dict(
+[1.339s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 445, in __init__
+[1.339s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[1.339s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 657, in <genexpr>
+[1.339s]     for entry in dist.get_entry_map(group).values()
+[1.340s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2861, in get_entry_map
+[1.340s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[1.340s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2529, in parse_map
+[1.340s]     for group, lines in data:
+[1.341s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3201, in split_sections
+[1.341s]     for line in yield_lines(s):
+[1.341s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2389, in yield_lines
+[1.341s]     for ss in strs:
+[1.341s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2769, in _get_metadata
+[1.342s]     for line in self.get_metadata_lines(name):
+[1.342s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1433, in get_metadata_lines
+[1.342s]     return yield_lines(self.get_metadata(name))
+[1.342s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1421, in get_metadata
+[1.342s]     value = self._get(path)
+[1.343s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1617, in _get
+[1.343s]     with open(path, 'rb') as stream:
+[1.343s] KeyboardInterrupt
+[1.371s] Invoked command in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber' returned '-2': PYTHONPATH=/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_subscriber build --build-base /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build install --record /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log --install-scripts $base/lib/joy_subscriber --single-version-externally-managed

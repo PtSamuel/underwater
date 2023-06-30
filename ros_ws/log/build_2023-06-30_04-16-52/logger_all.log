@@ -1,0 +1,138 @@
+[0.482s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'joy_subscriber']
+[0.483s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffabaf06d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['joy_subscriber'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffabaf06d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffabaf0c10>)
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.525s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/johnsmith/Desktop/underwater/ros_ws'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_publisher) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_publisher' with type 'ros.ament_python' and name 'imu_publisher'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_subscriber) by extension 'ros'
+[0.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_subscriber' with type 'ros.ament_python' and name 'joy_subscriber'
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.606s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_publisher' in 'src/imu_publisher'
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.612s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/johnsmith/Desktop/underwater/ros_ws/install
+[0.614s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 261 installed packages in /opt/ros/foxy
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'joy_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'joy_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber', 'merge_install': False, 'path': '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.721s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.727s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.728s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber' with build type 'ament_python'
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_subscriber', 'ament_prefix_path')
+[0.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/hook/ament_prefix_path.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/hook/ament_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/hook/ament_prefix_path.sh'
+[0.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.116s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber'
+[1.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber': PYTHONPATH=/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_subscriber build --build-base /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build install --record /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log --install-scripts $base/lib/joy_subscriber --single-version-externally-managed
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnsmith/Desktop/underwater/ros_ws/src/joy_subscriber' returned '0': PYTHONPATH=/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/prefix_override:/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_subscriber build --build-base /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build install --record /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log --install-scripts $base/lib/joy_subscriber --single-version-externally-managed
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber' for CMake module files
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber' for CMake config files
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/bin'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/pkgconfig/joy_subscriber.pc'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages'
+[2.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_subscriber', 'pythonpath')
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/hook/pythonpath.ps1'
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/hook/pythonpath.dsv'
+[2.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/hook/pythonpath.sh'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/bin'
+[2.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_subscriber)
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/package.ps1'
+[2.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/package.dsv'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/package.sh'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/package.bash'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/joy_subscriber/package.zsh'
+[2.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/share/colcon-core/packages/joy_subscriber)
+[2.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.289s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.307s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.307s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.308s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.347s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnsmith/Desktop/underwater/ros_ws/install/local_setup.ps1'
+[2.354s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johnsmith/Desktop/underwater/ros_ws/install/_local_setup_util_ps1.py'
+[2.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnsmith/Desktop/underwater/ros_ws/install/setup.ps1'
+[2.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnsmith/Desktop/underwater/ros_ws/install/local_setup.sh'
+[2.361s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johnsmith/Desktop/underwater/ros_ws/install/_local_setup_util_sh.py'
+[2.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnsmith/Desktop/underwater/ros_ws/install/setup.sh'
+[2.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnsmith/Desktop/underwater/ros_ws/install/local_setup.bash'
+[2.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnsmith/Desktop/underwater/ros_ws/install/setup.bash'
+[2.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnsmith/Desktop/underwater/ros_ws/install/local_setup.zsh'
+[2.370s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnsmith/Desktop/underwater/ros_ws/install/setup.zsh'
