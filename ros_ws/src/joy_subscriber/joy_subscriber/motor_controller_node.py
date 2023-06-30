@@ -40,9 +40,12 @@ class MotorController(Node):
                 else:
                     print("Serial connection failed at", serial_device)
                     self.ser = None
+        
+        self.reset_prev = None
+        self.on = True
     
     def map(self, x):
-        return x / 3
+        return x
 
     def actuate_forward(self, forward):
         
@@ -69,17 +72,30 @@ class MotorController(Node):
         # self.ser.write(command.encode())
 
     def listener_callback(self, message):
+        
+        reset = message.buttons[4]
+        if self.reset_prev == 1 and reset == 0:
+            self.on = not self.on
+            if not self.on:
+                print("Pausing control, sending zeros")
+                self.ser.write("$LT 0 0 0 0 0 0\r".encode())
+
+        self.reset_prev = reset
+
+        if not self.on:
+            print("Control paused...")
+            return
+
         # self.get_logger().info(f"Receiving: {message.axes}, {message.buttons}")
         if self.ser != None:
             forward = -float(message.axes[1])
             turn = float(message.axes[0])
             rise = float(message.axes[3])
             # print(f"forward: {forward:.02f}, turn: {turn:.02f}, rise: {rise:.02f}, ")
-
             T_forward = self.actuate_forward(forward)
             # self.actuate_lateral(turn)
             T_turn = self.actuate_turn(turn)
-            print(T_forward, T_turn)
+            # print(T_forward, T_turn)
             T_total = [x + y for x, y in zip(T_forward, T_turn)]
 
             command = f"$LT {T_total[0]:.02f} {T_total[1]:.02f} 0 0 {T_total[4]:.02f} {T_total[5]:.02f}\r"

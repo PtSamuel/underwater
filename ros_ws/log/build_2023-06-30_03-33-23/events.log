@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000523] (imu_publisher) JobQueued: {'identifier': 'imu_publisher', 'dependencies': OrderedDict()}
+[0.000683] (joy_subscriber) JobQueued: {'identifier': 'joy_subscriber', 'dependencies': OrderedDict()}
+[0.001023] (imu_publisher) JobStarted: {'identifier': 'imu_publisher'}
+[0.027730] (joy_subscriber) JobStarted: {'identifier': 'joy_subscriber'}
+[0.099645] (-) TimerEvent: {}
+[0.200312] (-) TimerEvent: {}
+[0.300859] (-) TimerEvent: {}
+[0.401456] (-) TimerEvent: {}
+[0.502179] (-) TimerEvent: {}
+[0.603045] (-) TimerEvent: {}
+[0.703725] (-) TimerEvent: {}
+[0.706515] (joy_subscriber) JobEnded: {'identifier': 'joy_subscriber', 'rc': 0}
+[0.710450] (imu_publisher) JobEnded: {'identifier': 'imu_publisher', 'rc': 'SIGINT'}
+[0.721337] (-) EventReactorShutdown: {}
