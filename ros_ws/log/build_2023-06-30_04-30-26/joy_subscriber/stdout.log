@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/joy_subscriber/joy_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/joy_subscriber/joy_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/joy_subscriber/joy_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/joy_subscriber/joy_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/joy_subscriber/joy_subscriber.egg-info/top_level.txt
+reading manifest file '../../build/joy_subscriber/joy_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/joy_subscriber/joy_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joy_subscriber/motor_controller_node.py -> /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build/lib/joy_subscriber
+running install
+running install_lib
+copying /home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/build/lib/joy_subscriber/motor_controller_node.py -> /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber
+byte-compiling /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber/motor_controller_node.py to motor_controller_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/joy_subscriber/joy_subscriber.egg-info to /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/python3.8/site-packages/joy_subscriber-0.0.0-py3.8.egg-info
+running install_scripts
+Installing joy_subscriber_node script to /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/joy_subscriber
+Installing motor_controller_node script to /home/johnsmith/Desktop/underwater/ros_ws/install/joy_subscriber/lib/joy_subscriber
+writing list of installed files to '/home/johnsmith/Desktop/underwater/ros_ws/build/joy_subscriber/install.log'

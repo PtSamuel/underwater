@@ -1,0 +1,1 @@
+cat /dev/tty0

@@ -47,6 +47,9 @@ class MotorController(Node):
     def map(self, x):
         return x
 
+    def map_turn(self, x):
+        return x / 3
+
     def actuate_forward(self, forward):
         
         mapped_throttle = self.map(forward)
@@ -55,11 +58,12 @@ class MotorController(Node):
         # print(command)
         # self.ser.write(command.encode())
 
-    def actuate_lateral(self, turn):
-        mapped_throttle = self.map(turn)
-        command = f"$LT {-mapped_throttle:.2f} {mapped_throttle:.2f} 0 0 {-mapped_throttle:.2f} {mapped_throttle:.2f}\r"
-        print(command)
-        self.ser.write(command.encode())
+    def actuate_lateral(self, lateral):
+        mapped_throttle = self.map(lateral)
+        # command = f"$LT {-mapped_throttle:.2f} {mapped_throttle:.2f} 0 0 {-mapped_throttle:.2f} {mapped_throttle:.2f}\r"
+        # print(command)
+        # self.ser.write(command.encode())
+        return [-mapped_throttle, mapped_throttle, 0, 0, -mapped_throttle, mapped_throttle]
 
     def actuate_vertical(self, dive, rise):
         mapped_vertical = self.map(dive - rise)
@@ -72,7 +76,7 @@ class MotorController(Node):
 
     def actuate_turn(self, turn):
         
-        mapped_throttle = self.map(turn)
+        mapped_throttle = self.map_turn(turn)
         
         return [-mapped_throttle, mapped_throttle, 0, 0, mapped_throttle, -mapped_throttle]
         # command = f"$LT {mapped_throttle:.2f} {mapped_throttle:.2f} 0 0 {-mapped_throttle:.2f} {-mapped_throttle:.2f}\r"
@@ -92,23 +96,23 @@ class MotorController(Node):
         self.reset_prev = reset
 
         if not self.on:
-            print("Control paused...")
             return
 
         # self.get_logger().info(f"Receiving: {message.axes}, {message.buttons}")
         if self.ser != None:
-            forward = -float(message.axes[1])
-            turn = float(message.axes[0])
+            forward = -message.axes[1]
+            lateral = -message.axes[0]
+            turn = -message.axes[2]
             dive = (message.axes[4] + 1) / 2
             rise = (message.axes[5] + 1) / 2
             print("dive, rise:", dive, rise)
             # print(f"forward: {forward:.02f}, turn: {turn:.02f}, rise: {rise:.02f}, ")
             T_forward = self.actuate_forward(forward)
-            # self.actuate_lateral(turn)
+            T_lateral = self.actuate_lateral(lateral)
             T_turn = self.actuate_turn(turn)
             T_vertical = self.actuate_vertical(dive, rise)
             # print(T_forward, T_turn)
-            T_total = self.add_vector(self.add_vector(T_forward, T_turn), T_vertical)
+            T_total = self.add_vector(self.add_vector(self.add_vector(T_forward, T_turn), T_vertical), T_lateral)
 
             command = f"$LT {T_total[0]:.02f} {T_total[1]:.02f} {T_total[2]:.02f} {T_total[3]:.02f} {T_total[4]:.02f} {T_total[5]:.02f}\r"
 
