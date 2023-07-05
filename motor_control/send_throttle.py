@@ -6,7 +6,7 @@ import sys
 serial_port = "/dev/serial/by-id/"
 password = "123456"
 safe_throttle_max = 0.5
-safety_mode = True
+safety_mode = False
 
 def open_port():	
     if os.path.isdir(serial_port):
@@ -63,15 +63,20 @@ def main():
 
     while True:
         try:
-            read = input("Enter throttles, each in [-1.0, 1.0]: ")
-            inputs = read.split(' ')
-            throttles = [protection(float(inputs[i])) for i in range(6)]
+            inputs = input("Enter throttles, each in [-1.0, 1.0]: ")
+            print(inputs, "len =", len(inputs))
+            values = inputs.split()
+            print(values)
+            if len(values) != 6:
+                print("Input should be exactly 6 values")
+                continue
+            throttles = [protection(float(i)) for i in values]
             send_throttle(ser, throttles)
         except KeyboardInterrupt:
             print("Received", KeyboardInterrupt)
             print("Zeroing throttle")
             send_throttle(ser, [0, 0, 0, 0, 0, 0])
-            break
+            return
         except Exception as e:
             print("Invalid input:", e)
 
