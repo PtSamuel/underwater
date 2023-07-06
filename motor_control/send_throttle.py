@@ -2,6 +2,7 @@ import os
 import serial
 import subprocess
 import sys
+import readline
 
 serial_port = "/dev/serial/by-id/"
 password = "123456"
