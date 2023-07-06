@@ -26,5 +26,4 @@ echo '
 import serial
 ser = serial.Serial("/dev/serial/by-id/usb-MBED_MBED_CMSIS-DAP_10107ee87189b1060027e1cf3deb984576d1-if01", baudrate=9600)
 while True:
-        pass' | python3 -i & >> ~/Desktop/underwater/boot_setup/log.txt
-
+	pass' | python3 -i & >> ~/Desktop/underwater/boot_setup/log.txt

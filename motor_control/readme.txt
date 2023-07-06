@@ -1,0 +1,1 @@
+It is found that once serial communication with Mbed is started, there must be at least 1 active session at ANY TIME to be able to read messages from the serial. Hence, upon boot a python3 terminal is brought up and open a serial, and is kept on by while True: pass.
